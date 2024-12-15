@@ -1,5 +1,4 @@
-# cdr-poe2filter
-cdr's Path of Exile 2 filters.
+# cdr's Path of Exile 2 filters
 
 https://ko-fi.com/cdrkf => My ko-fi, like patreon
 
@@ -29,7 +28,9 @@ NeverSink Twitch:    https://www.twitch.tv/neversink
 NeverSink github:    @NeverSinkDev  
 NeverSink Patreon:  www.patreon.com/Neversink  
 
-**How to download and use:**
+My PoE1 filters: https://www.pathofexile.com/account/view-profile/cdrpoe-1004/item-filters
+
+# How to download and use:
 
 ![image](https://github.com/user-attachments/assets/2fc2cba9-ad0a-455c-a690-7a778ec44f32)
 
