@@ -240,7 +240,7 @@ Show #T1 Armour
 	Corrupted False
 	ItemLevel >= 82
 	Rarity Normal Magic Rare
-	BaseType == "Expert Intricate Gloves" "Expert Spined Bracers" "Expert Goldcast Cuffs" "Expert Spiral Wraps" "Expert Feathered Sandals" "Expert Lizardscale Boots" "Expert Pelt Leggings" "Expert Hunting Shoes" "Expert Hexer's Robe" "Expert Sacrificial Mantle" "Expert Studded Vest" "Expert Scalper's Jacket" "Expert Feathered Tiara" "Expert Hunter Hood" "Expert Heavy Crown" "Expert Tribal Mask" "Expert Omen Crest Shield" "Expert Crystal Focus" "Expert Plumed Focus"
+	BaseType == "Expert Intricate Gloves" "Expert Spined Bracers" "Expert Spiral Wraps" "Expert Feathered Sandals" "Expert Lizardscale Boots" "Expert Hunting Shoes" "Expert Hexer's Robe" "Expert Sacrificial Mantle" "Expert Studded Vest" "Expert Waxed Jacket" "Expert Wayfarer Jacket" "Expert Scalper's Jacket" "Expert Feathered Tiara" "Expert Hunter Hood" "Expert Tribal Mask" "Expert Omen Crest Shield" "Expert Crystal Focus" "Expert Plumed Focus"
 	SetFontSize 40
 	SetBorderColor 255 125 0 160
 	PlayEffect Blue
@@ -251,7 +251,7 @@ Show # T2
 	Corrupted False
 	ItemLevel >= 82
 	Rarity Normal Magic Rare
-	BaseType == "Expert Moulded Mitts" "Expert Spined Bracers" "Expert Doubled Gauntlets" "Expert Stone Greaves" "Expert Lizardscale Boots" "Expert Stacked Sabatons" "Expert Keth Raiment" "Expert Altar Robe" "Expert Vaal Cuirass" "Expert Serpentscale Coat" "Expert Scale Mail" "Expert Elite Greathelm" "Expert Hunter Hood" "Expert Shielded Helm" "Expert Stone Tower Shield" "Expert Feathered Targe" "Expert Edged Buckler"
+	BaseType == "Expert Moulded Mitts" "Expert Doubled Gauntlets" "Expert Goldcast Cuffs" "Expert Pelt Leggings" "Expert Stone Greaves" "Expert Stacked Sabatons" "Expert Keth Raiment" "Expert Altar Robe" "Expert Vaal Cuirass" "Expert Serpentscale Coat" "Expert Scale Mail" "Expert Shaman Mantle" "Expert Elite Greathelm" "Expert Shielded Helm" "Expert Heavy Crown" "Expert Stone Tower Shield" "Expert Feathered Targe" "Expert Edged Buckler"
 	SetBorderColor 255 125 0 160
 
 Show #T1 1H Weapons
@@ -371,7 +371,7 @@ Show # T1
 	Corrupted False
 	ItemLevel >= 80
 	Rarity Normal Magic Rare
-	BaseType == "Breach Ring" "Bloodstone Amulet" "Solar Amulet" "Lunar Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Stellar Amulet" "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Amethyst Ring" "Prismatic Ring" "Pearl Ring" "Golden Obi" "Rawhide Belt" "Utility Belt" "Golden Charm" "Stone Charm" "Thawing Charm" "Dousing Charm" "Antidote Charm" "Expert Intricate Gloves" "Expert Spined Bracers" "Expert Goldcast Cuffs" "Expert Spiral Wraps" "Expert Feathered Sandals" "Expert Lizardscale Boots" "Expert Pelt Leggings" "Expert Hunting Shoes" "Expert Hexer's Robe" "Expert Studded Vest" "Expert Sacrificial Mantle" "Expert Scalper's Jacket" "Expert Feathered Tiara" "Expert Hunter Hood" "Expert Heavy Crown" "Expert Tribal Mask" "Expert Omen Crest Shield" "Expert Crystal Focus" "Expert Plumed Focus" "Expert Dualstring Bow" "Rattling Sceptre" "Expert Gothic Quarterstaff" "Expert Slicing Quarterstaff" "Omen Sceptre" "Primed Quiver"
+	BaseType == "Breach Ring" "Bloodstone Amulet" "Solar Amulet" "Lunar Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Stellar Amulet" "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Amethyst Ring" "Prismatic Ring" "Pearl Ring" "Golden Obi" "Rawhide Belt" "Utility Belt" "Golden Charm" "Stone Charm" "Thawing Charm" "Dousing Charm" "Antidote Charm" "Expert Intricate Gloves" "Expert Spined Bracers" "Expert Spiral Wraps" "Expert Feathered Sandals" "Expert Lizardscale Boots" "Expert Hunting Shoes" "Expert Hexer's Robe" "Expert Studded Vest" "Expert Sacrificial Mantle" "Expert Waxed Jacket" "Expert Wayfarer Jacket" "Expert Scalper's Jacket" "Expert Feathered Tiara" "Expert Hunter Hood" "Expert Tribal Mask" "Expert Omen Crest Shield" "Expert Crystal Focus" "Expert Plumed Focus" "Expert Dualstring Bow" "Rattling Sceptre" "Expert Gothic Quarterstaff" "Expert Slicing Quarterstaff" "Omen Sceptre" "Primed Quiver"
 	SetFontSize 40
 	SetBorderColor 200 200 0 160
 
@@ -385,7 +385,7 @@ Show # T1
 	ItemLevel <= 79
 	ItemLevel >= 65
 	Rarity Normal Magic Rare
-	BaseType == "Breach Ring" "Bloodstone Amulet" "Solar Amulet" "Lunar Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Stellar Amulet" "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Amethyst Ring" "Prismatic Ring" "Pearl Ring" "Golden Obi" "Rawhide Belt" "Utility Belt" "Golden Charm" "Stone Charm" "Thawing Charm" "Dousing Charm" "Antidote Charm" "Expert Intricate Gloves" "Expert Spined Bracers" "Expert Goldcast Cuffs" "Expert Spiral Wraps" "Expert Feathered Sandals" "Expert Lizardscale Boots" "Expert Pelt Leggings" "Expert Hunting Shoes" "Expert Hexer's Robe" "Expert Studded Vest" "Expert Sacrificial Mantle" "Expert Scalper's Jacket" "Expert Feathered Tiara" "Expert Hunter Hood" "Expert Heavy Crown" "Expert Tribal Mask" "Expert Omen Crest Shield" "Expert Crystal Focus" "Expert Plumed Focus" "Expert Dualstring Bow" "Rattling Sceptre" "Expert Gothic Quarterstaff" "Expert Slicing Quarterstaff" "Omen Sceptre" "Primed Quiver"
+	BaseType == "Breach Ring" "Bloodstone Amulet" "Solar Amulet" "Lunar Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Stellar Amulet" "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Amethyst Ring" "Prismatic Ring" "Pearl Ring" "Golden Obi" "Rawhide Belt" "Utility Belt" "Golden Charm" "Stone Charm" "Thawing Charm" "Dousing Charm" "Antidote Charm" "Expert Intricate Gloves" "Expert Spined Bracers" "Expert Spiral Wraps" "Expert Feathered Sandals" "Expert Lizardscale Boots" "Expert Hunting Shoes" "Expert Hexer's Robe" "Expert Studded Vest" "Expert Sacrificial Mantle" "Expert Waxed Jacket" "Expert Wayfarer Jacket" "Expert Scalper's Jacket" "Expert Feathered Tiara" "Expert Hunter Hood" "Expert Tribal Mask" "Expert Omen Crest Shield" "Expert Crystal Focus" "Expert Plumed Focus" "Expert Dualstring Bow" "Rattling Sceptre" "Expert Gothic Quarterstaff" "Expert Slicing Quarterstaff" "Omen Sceptre" "Primed Quiver"
 	SetFontSize 38
 	SetBorderColor 255 255 255 160
 
@@ -466,7 +466,7 @@ Show # Two Artificer's Orb shards
 
 Show # Arcanist's Etchers
 	Class == "Wands" "Sceptres" "Staves"
-	Quality > 11
+	Quality >= 10
 	Rarity Normal Magic
 	AreaLevel >= 65
 	SetFontSize 35
@@ -476,7 +476,7 @@ Show # Arcanist's Etchers
 
 Show # Armourer's Scraps
 	Class == "Body Armours" "Boots" "Gloves" "Helmets"
-	Quality > 11
+	Quality >= 10
 	Rarity Normal Magic
 	AreaLevel >= 65
 	SetFontSize 35
@@ -487,7 +487,7 @@ Show # Armourer's Scraps
 Show # Blacksmith's Whetstones
 	Height <= 3
 	Class == "Bows" "Claws" "Daggers" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Spears" "Flails" "Bows" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps"
-	Quality > 11
+	Quality >= 10
 	Rarity Magic
 	Rarity Normal Magic
 	AreaLevel >= 65
@@ -644,25 +644,47 @@ Show # corruptedraresimplicit
 # [[2100]] Endgame - Conditional Hide Layers
 #===============================================================================================================
 
-Show # corruptedrares
+Show # corruptedraresmaxonesocket
 	Corrupted True
 	Identified False
 	AnyEnchantment False
 	Sockets < 2
 	ItemLevel >= 65
 	Rarity Rare
-	Class == "Body Armours" "Boots" "Gloves" "Helmets" "Bows" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails" "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps" "Quivers" "Shields" "Foci"
+	Class == "Boots" "Gloves" "Helmets" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails" "Bows" "Staves" "Quivers" "Shields" "Foci"
+	SetFontSize 30
+	SetBorderColor 0 0 0
+	
+Show # corruptedraresmaxtwosocket
+	Corrupted True
+	Identified False
+	AnyEnchantment False
+	Sockets < 3
+	ItemLevel >= 65
+	Rarity Rare
+	Class == "Body Armours" "Bows" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps"
 	SetFontSize 30
 	SetBorderColor 0 0 0
 
-Show # mirroredrares
+Show # mirroredraresmaxonesocket
 	Mirrored True
 	Identified False
 	AnyEnchantment False
 	Sockets < 2
 	ItemLevel >= 65
 	Rarity Rare
-	Class == "Body Armours" "Boots" "Gloves" "Helmets" "Bows" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails" "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps" "Quivers" "Shields" "Foci"
+	Class == "Boots" "Gloves" "Helmets" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails" "Bows" "Staves" "Quivers" "Shields" "Foci"
+	SetFontSize 30
+	SetBorderColor 0 0 0
+	
+Show # mirroredraresmaxtwosocket
+	Mirrored True
+	Identified False
+	AnyEnchantment False
+	Sockets < 3
+	ItemLevel >= 65
+	Rarity Rare
+	Class == "Body Armours" "Bows" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps"
 	SetFontSize 30
 	SetBorderColor 0 0 0
 	
@@ -682,7 +704,7 @@ Show # t2
 	ItemLevel >= 65
 	Rarity Rare
 	Class == "Amulets" "Rings" "Belts" "Charms"
-	BaseType == "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Stellar Amulet"  "Gold Amulet" "Unset Ring" "Gold Ring" "Plate Belt" "Mail Belt" "Heavy Belt" "Amethyst Charm" "Silver Charm" "Grounding Charm"
+	BaseType == "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Stellar Amulet" "Gold Amulet" "Unset Ring" "Gold Ring" "Plate Belt" "Mail Belt" "Heavy Belt" "Amethyst Charm" "Silver Charm" "Grounding Charm"
 	SetFontSize 45
 	SetBackgroundColor 0 40 10 255
 
@@ -701,7 +723,7 @@ Show # t3
 Show # t1
 	ItemLevel >= 65
 	Rarity Rare
-	BaseType == "Expert Intricate Gloves" "Expert Spined Bracers" "Expert Goldcast Cuffs" "Expert Spiral Wraps" "Expert Feathered Sandals" "Expert Lizardscale Boots" "Expert Pelt Leggings" "Expert Hunting Shoes" "Expert Hexer's Robe" "Expert Studded Vest" "Expert Sacrificial Mantle" "Expert Scalper's Jacket" "Expert Feathered Tiara" "Expert Hunter Hood" "Expert Heavy Crown" "Expert Tribal Mask" "Expert Omen Crest Shield" "Expert Crystal Focus" "Expert Plumed Focus" "Expert Dualstring Bow" "Rattling Sceptre" "Expert Gothic Quarterstaff" "Expert Slicing Quarterstaff" "Omen Sceptre" "Primed Quiver"
+	BaseType == "Expert Intricate Gloves" "Expert Spined Bracers" "Expert Goldcast Cuffs" "Expert Spiral Wraps" "Expert Feathered Sandals" "Expert Lizardscale Boots" "Expert Pelt Leggings" "Expert Hunting Shoes" "Expert Hexer's Robe" "Expert Studded Vest" "Expert Sacrificial Mantle" "Expert Waxed Jacket" "Expert Wayfarer Jacket" "Expert Scalper's Jacket" "Expert Feathered Tiara" "Expert Hunter Hood" "Expert Heavy Crown" "Expert Tribal Mask" "Expert Omen Crest Shield" "Expert Crystal Focus" "Expert Plumed Focus" "Expert Dualstring Bow" "Rattling Sceptre" "Expert Gothic Quarterstaff" "Expert Slicing Quarterstaff" "Omen Sceptre" "Primed Quiver"
 	SetFontSize 45
 	SetBackgroundColor 20 20 0 255
 
@@ -968,8 +990,6 @@ Show # Runes
 	BaseType == "Desert Rune" "Glacial Rune" "Storm Rune" "Iron Rune" "Body Rune" "Mind Rune" "Rebirth Rune" "Inspiration Rune" "Stone Rune" "Vision Rune"
 	SetFontSize 40
 	SetBorderColor 0 0 0 255
-	PlayEffect Grey
-	MinimapIcon 2 Grey Circle
 
 Show # $type->currency->soulcore $tier->restex
 	Class == "Socketable"
@@ -2056,7 +2076,7 @@ Show # $type->currency $tier->restex
 
 Show # $type->uniques $tier->t1
 	Rarity Unique
-	BaseType == "Heavy Belt" "Silk Slippers" "Armoured Cap" "Conqueror Plate" "Fine Bracers" "Ornate Belt" "Jewelled Gloves" "Incense Relic" "Time-Lost Diamond" "Ring" "Chiming Staff" "Utility Belt" "Grand Visage" "Grand Regalia" "Garment" "Furtive Wraps" "Crucible Tower Shield" "Ultimate Life Flask"
+	BaseType == "Heavy Belt" "Armoured Cap" "Conqueror Plate" "Fine Bracers" "Ornate Belt" "Jewelled Gloves" "Incense Relic" "Time-Lost Diamond" "Ring" "Chiming Staff" "Utility Belt" "Grand Visage" "Grand Regalia" "Garment" "Furtive Wraps" "Crucible Tower Shield" "Ultimate Life Flask"
 	SetFontSize 45
 	SetTextColor 175 96 37 255
 	SetBorderColor 175 96 37 255
@@ -2135,7 +2155,7 @@ Show # $type->uniques $tier->exjewels
 	
 Show # %H4 $type->uniques $tier->t3
 	Rarity Unique
-	BaseType == "Blazon Crest Shield" "Hermit Garb" "Hardwood Targe" "Pathfinder Coat" "Veiled Mask" "Gold Circlet" "Layered Gauntlets" "Stone Greaves" "Feathered Robe" "Wrapped Greathelm" "Fur Plate" "Goldcast Cuffs" "Rusted Cuirass" "Laced Boots" "Rhoahide Coat" "Leather Vest" "Horned Crown" "Lizardscale Boots" "Engraved Focus" "Chain Mail" "Heavy Crown" "Warrior Greathelm" "Iron Greaves" "Gilded Vestments" "Jingling Crest Shield" "Cultist Crown" "Iron Crown" "Twig Circlet" "Braced Sabatons" "Doubled Gauntlets" "Twig Focus" "Elite Greathelm" "Intricate Gloves" "Splintered Tower Shield" "Stitched Gloves" "Braced Tower Shield" "Scale Mail" "Studded Vest" "Iron Cuirass" "Hunter Hood" "Pilgrim Vestments" "Guarded Helm" "Soldier Greathelm" "Crescent Targe" "Quilted Vest" "Embossed Boots" "Tattered Robe" "Waxed Jacket" "Rope Cuffs" "Vaal Cuirass" "Brimmed Helm" "Firm Bracers" "Rusted Greathelm" "Shaman Mantle" "Mail Vestments" "Sectioned Bracers" "Shabby Hood" "Vagabond Armour" "Visored Helm" "Ringmail Gauntlets" "Full Plate" "Hooded Mask" "Rough Greaves" "Tempered Mitts" "Straw Sandals" "Rampart Tower Shield" "Face Mask" "Feathered Tiara" "Pelage Targe" "Bone Raiment" "Suede Bracers" "Sigil Crest Shield" "Stacked Sabatons" "Torn Gloves" "Cloaked Mail" "Gauze Wraps" "Hunting Shoes" "Keth Raiment" "Serpentscale Coat" "Anchorite Garb" "Emblem Crest Shield" "Tonal Focus" "Aged Cuffs" "Marabout Garb" "Spined Bracers" "Votive Raiment" "Rogue Armour" "Hexer's Robe" "Champion Cuirass" "Wayfarer Jacket" "Wicker Tiara" "Crystal Focus" "Hewn Mask" "Raider Plate" "Bronze Greaves" "Mail Sabatons" "Scout's Vest" "Cowled Helm" "Solid Mask" "Shielded Helm" "Effigial Tower Shield" "Woven Focus" "Spired Greathelm" "Steeltoe Boots" "Maraketh Cuirass" "Trimmed Greaves" "Riveted Mitts" "Martyr Crown" "Beaded Circlet" "Secured Leggings" "Steel Plate" "Wrapped Sandals" "Feathered Sandals" "Painted Tower Shield" "Iron Ring" "Mail Belt" "Plate Belt" "Linen Belt" "Rawhide Belt" "Lunar Amulet" "Fine Belt" "Long Belt" "Bloodstone Amulet" "Broadhead Quiver" "Fire Quiver" "Studded Greatclub" "Wooden Club" "Leaden Greathammer" "Dualstring Bow" "Ashen Staff" "Voltaic Staff" "Volatile Wand" "Omen Sceptre" "Slim Mace" "Felled Greatclub" "Oak Greathammer" "Attuned Wand" "Crescent Quarterstaff" "Makeshift Crossbow" "Steelpoint Quarterstaff" "Long Quarterstaff" "Crumbling Maul" "Shortbow" "Tense Crossbow" "Bone Wand" "Plated Mace" "Recurve Bow" "Gelid Staff" "Wrapped Quarterstaff" "Rattling Sceptre" "Pyrophyte Staff" "Gothic Quarterstaff" "Spiked Club" "Forge Maul" "Crude Bow" "Smithing Hammer" "Tapestry Relic" "Vase Relic" "Coffer Relic" "Sombre Gloves" "Amphora Relic" "Seal Relic" "Visceral Quiver" "Spiritbone Crown" "Torment Club"
+	BaseType == "Blazon Crest Shield" "Hermit Garb" "Hardwood Targe" "Pathfinder Coat" "Veiled Mask" "Gold Circlet" "Layered Gauntlets" "Stone Greaves" "Feathered Robe" "Wrapped Greathelm" "Fur Plate" "Goldcast Cuffs" "Rusted Cuirass" "Laced Boots" "Rhoahide Coat" "Leather Vest" "Horned Crown" "Lizardscale Boots" "Engraved Focus" "Chain Mail" "Heavy Crown" "Warrior Greathelm" "Iron Greaves" "Gilded Vestments" "Jingling Crest Shield" "Cultist Crown" "Iron Crown" "Twig Circlet" "Braced Sabatons" "Doubled Gauntlets" "Twig Focus" "Elite Greathelm" "Intricate Gloves" "Splintered Tower Shield" "Stitched Gloves" "Braced Tower Shield" "Scale Mail" "Studded Vest" "Iron Cuirass" "Hunter Hood" "Pilgrim Vestments" "Guarded Helm" "Soldier Greathelm" "Crescent Targe" "Quilted Vest" "Embossed Boots" "Tattered Robe" "Waxed Jacket" "Rope Cuffs" "Vaal Cuirass" "Brimmed Helm" "Firm Bracers" "Rusted Greathelm" "Shaman Mantle" "Mail Vestments" "Sectioned Bracers" "Shabby Hood" "Vagabond Armour" "Visored Helm" "Ringmail Gauntlets" "Full Plate" "Hooded Mask" "Rough Greaves" "Tempered Mitts" "Straw Sandals" "Rampart Tower Shield" "Face Mask" "Feathered Tiara" "Pelage Targe" "Bone Raiment" "Suede Bracers" "Sigil Crest Shield" "Stacked Sabatons" "Torn Gloves" "Cloaked Mail" "Gauze Wraps" "Hunting Shoes" "Keth Raiment" "Serpentscale Coat" "Anchorite Garb" "Emblem Crest Shield" "Tonal Focus" "Aged Cuffs" "Marabout Garb" "Spined Bracers" "Votive Raiment" "Rogue Armour" "Hexer's Robe" "Champion Cuirass" "Wayfarer Jacket" "Wicker Tiara" "Crystal Focus" "Hewn Mask" "Raider Plate" "Bronze Greaves" "Mail Sabatons" "Scout's Vest" "Cowled Helm" "Solid Mask" "Shielded Helm" "Effigial Tower Shield" "Woven Focus" "Spired Greathelm" "Steeltoe Boots" "Maraketh Cuirass" "Trimmed Greaves" "Riveted Mitts" "Martyr Crown" "Beaded Circlet" "Secured Leggings" "Steel Plate" "Wrapped Sandals" "Feathered Sandals" "Painted Tower Shield" "Iron Ring" "Mail Belt" "Plate Belt" "Linen Belt" "Rawhide Belt" "Lunar Amulet" "Fine Belt" "Long Belt" "Bloodstone Amulet" "Broadhead Quiver" "Fire Quiver" "Studded Greatclub" "Wooden Club" "Leaden Greathammer" "Dualstring Bow" "Ashen Staff" "Voltaic Staff" "Volatile Wand" "Omen Sceptre" "Slim Mace" "Felled Greatclub" "Oak Greathammer" "Attuned Wand" "Crescent Quarterstaff" "Makeshift Crossbow" "Steelpoint Quarterstaff" "Long Quarterstaff" "Crumbling Maul" "Shortbow" "Tense Crossbow" "Bone Wand" "Plated Mace" "Recurve Bow" "Gelid Staff" "Wrapped Quarterstaff" "Rattling Sceptre" "Pyrophyte Staff" "Gothic Quarterstaff" "Spiked Club" "Forge Maul" "Crude Bow" "Smithing Hammer" "Tapestry Relic" "Vase Relic" "Coffer Relic" "Sombre Gloves" "Amphora Relic" "Seal Relic" "Visceral Quiver" "Spiritbone Crown" "Torment Club" "Silk Slippers"
 	SetFontSize 45
 	SetTextColor 175 96 37 255
 	SetBorderColor 175 96 37 255
