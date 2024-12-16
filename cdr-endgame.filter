@@ -1216,7 +1216,6 @@ Show # %H5 $type->waystones $tier->waystones_b_t13
 Show # %H5 $type->waystones $tier->waystones_b_t12
 	WaystoneTier 12
 	Class == "Waystones"
-	AreaLevel <= 79
 	SetFontSize 45
 	SetTextColor 0 0 0 255
 	SetBackgroundColor 200 200 200 255
