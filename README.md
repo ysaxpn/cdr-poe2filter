@@ -19,7 +19,7 @@ You're encouraged to edit to your own liking.
 
 HIDE THINGS AT YOUR OWN RISK. Tiering is not perfect and values can change quickly.
 
-Feedback welcome on FilterBlade Discord.
+Feedback welcome on FilterBlade Discord or [reddit](https://www.reddit.com/r/PathOfExile2/comments/1heq76s/filter_cdrs_endgame_poe2_filter_a_1600_line_fully/).
 
 Built on NeverSink's PoE1 filter structure.  
 https://www.filterblade.xyz/: Path of Exile 2 support coming in a few weeks.  
