@@ -2065,31 +2065,69 @@ Show # $type->currency->trial->omen $tier->restex
 #===============================================================================================================
 # [[3800]] Currency - Splinters
 #===============================================================================================================
+#------------------------------------
+#   [3801] Splinters - stacked
+#------------------------------------
 
+Show # %D6 $type->currency->stackedsplintershigh $tier->10
+	StackSize >= 10
+	Class == "Stackable Currency"
+	BaseType == "Breach Splinter" "Simulacrum Splinter"
+	SetFontSize 45
+	SetTextColor 0 0 0 255
+	SetBorderColor 210 20 210 255
+	SetBackgroundColor 240 90 35 255
+	PlayAlertSound 2 300
+	PlayEffect Yellow
+	MinimapIcon 1 Yellow Kite
+
+Show # %DS5 $type->currency->stackedsplintershigh $tier->5
+	StackSize >= 5
+	Class == "Stackable Currency"
+	BaseType == "Breach Splinter" "Simulacrum Splinter"
+	SetFontSize 45
+	SetTextColor 0 0 0 255
+	SetBorderColor 210 20 210 255
+	SetBackgroundColor 249 150 25 255
+	PlayAlertSound 2 300
+	PlayEffect Purple
+	MinimapIcon 2 Purple Kite
+
+Show # %DS4 $type->currency->stackedsplintershigh $tier->2
+	StackSize >= 2
+	Class == "Stackable Currency"
+	BaseType == "Breach Splinter" "Simulacrum Splinter"
+	SetFontSize 45
+	SetTextColor 0 0 0 255
+	SetBorderColor 210 20 210 255
+	SetBackgroundColor 249 150 25 255
+	PlayAlertSound 2 300
+	PlayEffect White
+	MinimapIcon 2 Purple Kite
+	
 #------------------------------------
 #   [3802] Splinters - single
 #------------------------------------
 
-Show # %HS4 $type->currency->splinter $tier->t1
+# Show # %HS4 $type->currency->splinter $tier->t1
+	# Class == "Stackable Currency"
+	# BaseType == "Breach Splinter" "Simulacrum Splinter"
+	# SetFontSize 45
+	# SetTextColor 255 255 255 255
+	# SetBorderColor 210 20 210 255
+	# SetBackgroundColor 65 20 80
+	# PlayAlertSound 2 300
+	# PlayEffect Purple Temp
+	# MinimapIcon 1 Purple Kite
+
+Show # %HS3 $type->currency->splinter $tier->t2
 	Class == "Stackable Currency"
 	BaseType == "Breach Splinter" "Simulacrum Splinter"
-	SetFontSize 45
+	SetFontSize 40
 	SetTextColor 255 255 255 255
-	SetBorderColor 210 20 210 255
 	SetBackgroundColor 65 20 80
-	PlayAlertSound 2 300
 	PlayEffect Purple Temp
-	MinimapIcon 1 Purple Kite
-
-# Show # %HS3 $type->currency->splinter $tier->t2
-	# Class == "Stackable Currency"
-	# BaseType == ""
-	# SetFontSize 40
-	# SetTextColor 255 255 255 255
-	# SetBorderColor 115 115 115 255
-	# SetBackgroundColor 65 20 80
-	# PlayEffect Purple Temp
-	# MinimapIcon 2 White Kite
+	MinimapIcon 2 White Kite
 	
 #===============================================================================================================
 # [[4000]] Remaining Currency
