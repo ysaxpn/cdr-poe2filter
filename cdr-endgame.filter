@@ -426,7 +426,20 @@ Show # normaldecoratorremover
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 20 20 0 240
 	Continue
-	
+
+#===============================================================================================================
+# [[1400]] Chancing Bases
+#===============================================================================================================
+
+Show # %D1 $type->chancing $tier->hh
+	Mirrored False
+	Corrupted False
+	Rarity Normal
+	BaseType == "Heavy Belt" "Stellar Amulet"
+	SetFontSize 35
+	SetTextColor 255 255 255 255
+	SetBorderColor 0 150 0 90
+
 #------------------------------------
 #   [1309] Salvage
 #------------------------------------
