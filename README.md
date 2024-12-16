@@ -23,7 +23,7 @@ Feedback welcome on FilterBlade Discord.
 
 Built on NeverSink's PoE1 filter structure.  
 https://www.filterblade.xyz/: Path of Exile 2 support coming in a few weeks.  
-FilterBlade Discord: https://discord.gg/zFEx92a
+FilterBlade Discord: https://discord.gg/zFEx92a  
 NeverSink Twitch:    https://www.twitch.tv/neversink  
 NeverSink github:    @NeverSinkDev  
 NeverSink Patreon:  www.patreon.com/Neversink  
