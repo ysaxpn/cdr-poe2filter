@@ -372,7 +372,7 @@ Show # T1
 	ItemLevel >= 80
 	Rarity Normal Magic Rare
 	BaseType == "Breach Ring" "Bloodstone Amulet" "Solar Amulet" "Lunar Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Stellar Amulet" "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Amethyst Ring" "Prismatic Ring" "Pearl Ring" "Golden Obi" "Rawhide Belt" "Utility Belt" "Golden Charm" "Stone Charm" "Thawing Charm" "Dousing Charm" "Antidote Charm" "Expert Intricate Gloves" "Expert Spined Bracers" "Expert Spiral Wraps" "Expert Feathered Sandals" "Expert Lizardscale Boots" "Expert Hunting Shoes" "Expert Hexer's Robe" "Expert Studded Vest" "Expert Sacrificial Mantle" "Expert Waxed Jacket" "Expert Wayfarer Jacket" "Expert Scalper's Jacket" "Expert Feathered Tiara" "Expert Hunter Hood" "Expert Tribal Mask" "Expert Omen Crest Shield" "Expert Crystal Focus" "Expert Plumed Focus" "Expert Dualstring Bow" "Rattling Sceptre" "Expert Gothic Quarterstaff" "Expert Slicing Quarterstaff" "Omen Sceptre" "Primed Quiver"
-	SetFontSize 40
+	SetFontSize 38
 	SetBorderColor 200 200 0 160
 
 #------------------------------------
@@ -386,7 +386,7 @@ Show # T1
 	ItemLevel >= 65
 	Rarity Normal Magic Rare
 	BaseType == "Breach Ring" "Bloodstone Amulet" "Solar Amulet" "Lunar Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Stellar Amulet" "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Amethyst Ring" "Prismatic Ring" "Pearl Ring" "Golden Obi" "Rawhide Belt" "Utility Belt" "Golden Charm" "Stone Charm" "Thawing Charm" "Dousing Charm" "Antidote Charm" "Expert Intricate Gloves" "Expert Spined Bracers" "Expert Spiral Wraps" "Expert Feathered Sandals" "Expert Lizardscale Boots" "Expert Hunting Shoes" "Expert Hexer's Robe" "Expert Studded Vest" "Expert Sacrificial Mantle" "Expert Waxed Jacket" "Expert Wayfarer Jacket" "Expert Scalper's Jacket" "Expert Feathered Tiara" "Expert Hunter Hood" "Expert Tribal Mask" "Expert Omen Crest Shield" "Expert Crystal Focus" "Expert Plumed Focus" "Expert Dualstring Bow" "Rattling Sceptre" "Expert Gothic Quarterstaff" "Expert Slicing Quarterstaff" "Omen Sceptre" "Primed Quiver"
-	SetFontSize 38
+	SetFontSize 35
 	SetBorderColor 255 255 255 160
 
 #------------------------------------
@@ -848,7 +848,7 @@ Show # anymagic
 #   [2801] Uncut Gem Progression
 #------------------------------------
 
-Show # $type->uncutgem $level->19
+Show # $type->uncutgem $level->20
 	BaseType == "Uncut Skill Gem" "Uncut Spirit Gem"
 	ItemLevel >= 20
 	SetFontSize 45
@@ -1561,7 +1561,7 @@ Show # $type->currency $tier->t1perfectjeweller
 
 Show # $type->currency $tier->t2divine
 	Class == "Stackable Currency"
-	BaseType == "Greater Jeweller's Orb"
+	BaseType == "Greater Jeweller's Orb" "Divine Orb"
 	SetFontSize 45
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
@@ -1570,16 +1570,16 @@ Show # $type->currency $tier->t2divine
 	PlayEffect Red
 	MinimapIcon 0 Red Circle
 
-Show # $type->currency $tier->t3annul
-	Class == "Stackable Currency"
-	BaseType == "Divine Orb"
-	SetFontSize 45
-	SetTextColor 0 0 0 255
-	SetBorderColor 0 0 0 255
-	SetBackgroundColor 240 90 35 255
-	PlayAlertSound 2 300
-	PlayEffect Yellow
-	MinimapIcon 1 Yellow Circle
+# Show # $type->currency $tier->t3annul
+	# Class == "Stackable Currency"
+	# BaseType == 
+	# SetFontSize 45
+	# SetTextColor 0 0 0 255
+	# SetBorderColor 0 0 0 255
+	# SetBackgroundColor 240 90 35 255
+	# PlayAlertSound 2 300
+	# PlayEffect Yellow
+	# MinimapIcon 1 Yellow Circle
 
 Show # $type->currency $tier->t4exalt
 	Class == "Stackable Currency"
