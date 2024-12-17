@@ -1762,7 +1762,7 @@ Show # $type->currency->distilled $tier->restex
 
 Show # $type->keys $tier->t1
 	Class == "Stackable Currency"
-	BaseType == "Gold Key" "Silver Key" "Gold Key"
+	BaseType == "Gold Key" "Silver Key" "Bronze Key"
 	SetFontSize 45
 	SetTextColor 74 230 58 255
 	SetBorderColor 74 230 58 255
