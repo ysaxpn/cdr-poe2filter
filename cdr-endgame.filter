@@ -1640,10 +1640,11 @@ Show # %H1 $type->currency $tier->t9transmutation
 	SetBorderColor 170 158 130 255
 	SetBackgroundColor 20 20 0 255
 
-Show # %H1 $type->currency $tier->twisdom
+Hide # %H1 $type->currency $tier->twisdom
 	Class == "Stackable Currency"
 	BaseType == "Scroll of Wisdom" "Transmutation Shard"
 	SetFontSize 30
+	SetBackgroundColor 20 20 0 255
 	DisableDropSound True
 
 #===============================================================================================================
