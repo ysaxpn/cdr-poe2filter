@@ -1997,7 +1997,7 @@ Show # $type->currency->essence $tier->restex
 #------------------------------------
 
 Show # $type->currency->trial->omen $tier->t1
-	Class == "Stackable Currency"
+	Class == "Omen"
 	BaseType == "Omen of Whittling" "Omen of Sinistral Erasure" "Omen of Dextral Erasure" "Omen of Sinistral Annulment" "Omen of Dextral Annulment"
 	SetFontSize 45
 	SetTextColor 255 0 0 255
@@ -2008,7 +2008,7 @@ Show # $type->currency->trial->omen $tier->t1
 	MinimapIcon 0 Red Star
 
 Show # $type->currency->trial->omen $tier->t2
-	Class == "Stackable Currency"
+	Class == "Omen"
 	BaseType == "Omen of Corruption" "Omen of Amelioration"
 	SetFontSize 45
 	SetTextColor 255 255 255 255
@@ -2019,7 +2019,7 @@ Show # $type->currency->trial->omen $tier->t2
 	MinimapIcon 0 Red Circle
 
 Show # $type->currency->trial->omen $tier->t3
-	Class == "Stackable Currency"
+	Class == "Omen"
 	BaseType == "Omen of Sinistral Alchemy" "Omen of Resurgence" "Omen of Sinistral Exaltation" "Omen of Greater Annulment"
 	SetFontSize 45
 	SetTextColor 0 0 0 255
@@ -2030,7 +2030,7 @@ Show # $type->currency->trial->omen $tier->t3
 	MinimapIcon 1 Yellow Circle
 
 Show # %H5 $type->currency->trial->omen $tier->t4
-	Class == "Stackable Currency"
+	Class == "Omen"
 	BaseType == "Omen of Dextral Alchemy" "Omen of Sinistral Coronation" "Omen of Dextral Coronation" "Omen of Refreshment" "Omen of Dextral Exaltation" "Omen of Greater Exaltation"
 	SetFontSize 45
 	SetTextColor 0 0 0 255
@@ -2041,7 +2041,7 @@ Show # %H5 $type->currency->trial->omen $tier->t4
 	MinimapIcon 2 White Circle
 
 # Show # %HS3 $type->currency->trial->omen $tier->t5
-	# Class == "Stackable Currency"
+	# Class == "Omen"
 	# BaseType == ""
 	# SetFontSize 45
 	# SetTextColor 0 0 0 255
@@ -2052,7 +2052,7 @@ Show # %H5 $type->currency->trial->omen $tier->t4
 	# MinimapIcon 2 Grey Circle
 
 Show # $type->currency->trial->omen $tier->restex
-	Class == "Stackable Currency"
+	Class == "Omen"
 	BaseType "Omen of"
 	SetFontSize 45
 	SetTextColor 255 0 255 255
