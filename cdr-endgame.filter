@@ -1509,7 +1509,7 @@ Show # Inscribed Ultimatum any
 
 Show # $type->fragments->tablets $tier->t3
 	Class == "Tablet"
-	BaseType == "Expedition Precursor Tablet"
+	BaseType == "Expedition Precursor Tablet" "Ritual Precursor Tablet"
 	SetFontSize 45
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
@@ -1520,7 +1520,7 @@ Show # $type->fragments->tablets $tier->t3
 
 Show # %H5 $type->fragments->tablets $tier->t4
 	Class == "Tablet"
-	BaseType == "Precursor Tablet" "Breach Precursor Tablet" "Delirium Precursor Tablet" "Ritual Precursor Tablet"
+	BaseType == "Precursor Tablet" "Breach Precursor Tablet" "Delirium Precursor Tablet"
 	SetFontSize 45
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
@@ -1717,7 +1717,7 @@ Show # %HS3 $type->currency $tier->t6artificer
 Show # %HS2 $type->currency $tier->t7whetstone
 	Class == "Stackable Currency"
 	BaseType == "Lesser Jeweller's Orb" "Blacksmith's Whetstone" "Order Artifact"
-	SetFontSize 45
+	SetFontSize 40
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 210 178 135 255
@@ -1726,7 +1726,7 @@ Show # %HS2 $type->currency $tier->t7whetstone
 Show # %H2 $type->currency $tier->t8shard
 	Class == "Stackable Currency"
 	BaseType == "Artificer's Shard" "Regal Shard"
-	SetFontSize 40
+	SetFontSize 35
 	SetTextColor 190 178 135 255
 	SetBorderColor 190 178 135 255
 	SetBackgroundColor 20 20 0 255
