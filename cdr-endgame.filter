@@ -728,7 +728,7 @@ Show # t1
 	ItemLevel >= 65
 	Rarity Rare
 	Class == "Amulets" "Rings" "Belts" "Charms"
-	BaseType == "Breach Ring" "Bloodstone Amulet" "Solar Amulet" "Lunar Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Stellar Amulet" "Gold Amulet" "Gold Ring" "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Amethyst Ring" "Prismatic Ring" "Pearl Ring" "Golden Obi" "Rawhide Belt" "Utility Belt" "Golden Charm" "Stone Charm" "Thawing Charm" "Dousing Charm" "Antidote Charm"
+	BaseType == "Bloodstone Amulet" "Solar Amulet" "Lunar Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Stellar Amulet" "Gold Amulet" "Gold Ring" "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Amethyst Ring" "Prismatic Ring" "Pearl Ring" "Golden Obi" "Rawhide Belt" "Utility Belt" "Golden Charm" "Stone Charm" "Thawing Charm" "Dousing Charm" "Antidote Charm"
 	SetFontSize 45
 	SetBackgroundColor 0 80 30 255
 
@@ -1649,42 +1649,42 @@ Show # $type->currency $tier->t2divine
 	PlayEffect Red
 	MinimapIcon 0 Red Circle
 
-# Show # $type->currency $tier->t3annul
-	# Class == "Stackable Currency"
-	# BaseType == 
-	# SetFontSize 45
-	# SetTextColor 0 0 0 255
-	# SetBorderColor 0 0 0 255
-	# SetBackgroundColor 240 90 35 255
-	# PlayAlertSound 2 300
-	# PlayEffect Yellow
-	# MinimapIcon 1 Yellow Circle
+Show # $type->currency $tier->t3annul
+	Class == "Stackable Currency"
+	BaseType == "Orb of Annulment" "Orb of Chance"
+	SetFontSize 45
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 240 90 35 255
+	PlayAlertSound 2 300
+	PlayEffect Yellow
+	MinimapIcon 1 Yellow Circle
 
 Show # $type->currency $tier->t4exalt
 	Class == "Stackable Currency"
-	BaseType == "Exalted Orb" "Gemcutter's Prism" "Orb of Chance" "Orb of Annulment" "Chaos Orb" "Exotic Coinage" 
+	BaseType == "Exalted Orb" "Gemcutter's Prism" "Chaos Orb" "Exotic Coinage" 
 	SetFontSize 45
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 249 150 25 255
 	PlayAlertSound 2 300
+	PlayEffect Yellow
+	MinimapIcon 2 Yellow Circle
+
+Show # %HS4 $type->currency $tier->t5glassblower
+	Class == "Stackable Currency"
+	BaseType == "Glassblower's Bauble" "Orb of Alchemy" "Vaal Orb" "Armourer's Scrap" "Chance Shard"
+	SetFontSize 45
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 213 159 0 255
+	PlayAlertSound 2 300
 	PlayEffect White
 	MinimapIcon 2 White Circle
 
-# Show # %HS4 $type->currency $tier->t5chaos
-	# Class == "Stackable Currency"
-	# BaseType == ""
-	# SetFontSize 45
-	# SetTextColor 0 0 0 255
-	# SetBorderColor 0 0 0 255
-	# SetBackgroundColor 213 159 0 255
-	# PlayAlertSound 2 300
-	# PlayEffect White
-	# MinimapIcon 2 White Circle
-
-Show # %HS3 $type->currency $tier->t6glassblower
+Show # %HS3 $type->currency $tier->t6artificer
 	Class == "Stackable Currency"
-	BaseType == "Glassblower's Bauble" 
+	BaseType == "Artificer's Orb" "Regal Orb" "Black Scythe Artifact" "Sun Artifact" "Arcanist's Etcher" "Broken Circle Artifact"
 	SetFontSize 45
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
@@ -1693,31 +1693,32 @@ Show # %HS3 $type->currency $tier->t6glassblower
 	PlayEffect Grey
 	MinimapIcon 2 Grey Circle
 
-Show # %HS2 $type->currency $tier->t7alchemy
+Show # %HS2 $type->currency $tier->t7whetstone
 	Class == "Stackable Currency"
-	BaseType == "Orb of Alchemy" "Artificer's Orb" "Arcanist's Etcher" "Lesser Jeweller's Orb" "Black Scythe Artifact" "Sun Artifact"
+	BaseType == "Lesser Jeweller's Orb" "Blacksmith's Whetstone" "Order Artifact"
 	SetFontSize 45
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 210 178 135 255
 	MinimapIcon 2 Grey Circle
 
-Show # %H2 $type->currency $tier->t8regal
+Show # %H2 $type->currency $tier->t8shard
 	Class == "Stackable Currency"
-	BaseType == "Vaal Orb" "Regal Orb" "Armourer's Scrap" "Blacksmith's Whetstone" "Chance Shard" "Order Artifact" "Broken Circle Artifact"
-	SetFontSize 45
+	BaseType == "Artificer's Shard" "Regal Shard"
+	SetFontSize 40
 	SetTextColor 190 178 135 255
 	SetBorderColor 190 178 135 255
 	SetBackgroundColor 20 20 0 255
-	MinimapIcon 2 Grey Circle
+	DisableDropSound True
 
 Show # %H1 $type->currency $tier->t9transmutation
 	Class == "Stackable Currency"
-	BaseType == "Artificer's Shard" "Regal Shard" "Orb of Augmentation" "Orb of Transmutation"
+	BaseType ==  "Orb of Augmentation" "Orb of Transmutation"
 	SetFontSize 35
 	SetTextColor 170 158 130 255
 	SetBorderColor 170 158 130 255
 	SetBackgroundColor 20 20 0 255
+	DisableDropSound True
 
 Hide # %H1 $type->currency $tier->twisdom
 	Class == "Stackable Currency"
