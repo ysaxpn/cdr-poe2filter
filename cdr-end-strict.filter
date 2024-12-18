@@ -445,14 +445,14 @@ Show # normaldecoratorremover
 # [[1400]] Chancing Bases
 #===============================================================================================================
 
-# Show # %D1 $type->chancing $tier->hh
-	# Mirrored False
-	# Corrupted False
-	# Rarity Normal
-	# BaseType == "Heavy Belt" "Stellar Amulet"
-	# SetFontSize 35
-	# SetTextColor 255 255 255 255
-	# SetBorderColor 0 150 0 90
+Show # %D1 $type->chancing $tier->hh
+	Mirrored False
+	Corrupted False
+	Rarity Normal
+	BaseType == "Heavy Belt" "Stellar Amulet" "Azure Amulet" "Emerald Ring"
+	SetFontSize 35
+	SetTextColor 255 255 255 255
+	SetBorderColor 0 150 0 90
 
 #------------------------------------
 #   [1309] Salvage
@@ -527,11 +527,11 @@ Show # normaldecoratorremover
 #   [1501] Endgame Flasks
 #------------------------------------
 
-Show # ILVL 82 + Quality
+Show # ILVL 83 + Quality
 	Mirrored False
 	Corrupted False
-	Quality >= 20
-	ItemLevel >= 82
+	Quality >= 10
+	ItemLevel >= 83
 	Rarity Normal Magic
 	BaseType == "Ultimate Life Flask" "Ultimate Mana Flask"
 	AreaLevel >= 65
@@ -543,10 +543,10 @@ Show # ILVL 82 + Quality
 	PlayEffect Blue
 	MinimapIcon 1 Blue Diamond
 
-# Show # Max craft ILVL (82)
+# Show # Max craft ILVL (83)
 	# Mirrored False
 	# Corrupted False
-	# ItemLevel >= 82
+	# ItemLevel >= 83
 	# Rarity Normal Magic
 	# Class == "Life Flasks" "Mana Flasks"
 	# BaseType == "Ultimate Life Flask" "Ultimate Mana Flask"
