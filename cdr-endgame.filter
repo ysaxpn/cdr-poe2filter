@@ -519,7 +519,7 @@ Show # Armourer's Scraps
 Show # Blacksmith's Whetstones
 	Height <= 3
 	Class == "Bows" "Claws" "Daggers" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Spears" "Flails" "Bows" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps"
-	Quality >= 10
+	Quality >= 15
 	Rarity Magic
 	Rarity Normal Magic
 	AreaLevel >= 65
@@ -1436,8 +1436,19 @@ Show # Trial Coins special
 	PlayAlertSound 6 300
 	PlayEffect Red
 	MinimapIcon 0 Red Star
+
+Show # Djinn Barya 4 trials (4th ascension)
+	Class == "Trial Coins"
+	BaseType == "Djinn Barya"
+	ItemLevel >= 75
+	SetFontSize 45
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 249 150 25 255
+	PlayEffect Yellow
+	MinimapIcon 2 Yellow Circle
 	
-Show # Trial Coins basic
+Show # Djinn Barya any
 	Class == "Trial Coins"
 	BaseType == "Djinn Barya"
 	SetFontSize 45
@@ -1448,7 +1459,18 @@ Show # Trial Coins basic
 	PlayEffect Grey
 	MinimapIcon 2 Grey Circle
 	
-Show # Inscribed Ultimatums
+Show # Inscribed Ultimatum 10 trials (4th ascension)
+	Class == "Inscribed Ultimatum"
+	BaseType == "Inscribed Ultimatum"
+	ItemLevel >= 75
+	SetFontSize 45
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 249 150 25 255
+	PlayEffect Yellow
+	MinimapIcon 2 Yellow Circle
+	
+Show # Inscribed Ultimatum any
 	Class == "Inscribed Ultimatum"
 	BaseType == "Inscribed Ultimatum"
 	SetFontSize 45
