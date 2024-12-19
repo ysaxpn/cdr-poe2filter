@@ -221,7 +221,7 @@ Show # normaldecorator
 	Continue
 
 #------------------------------------
-#   Max Mod ILVL (82) Bases
+#   [1304] Max Mod ILVL (82/83) Bases
 #------------------------------------
 
 Show #T1 Charms
@@ -356,7 +356,7 @@ Show #T1 Jewellery
 	# Corrupted False
 	# ItemLevel >= 82
 	# Rarity Normal Magic Rare
-	# BaseType == "Rattling Sceptre" "Omen Sceptre"
+	# BaseType == "Omen Sceptre" "Chiming Staff" "Attuned Wand" "Siphoning Wand"
 	# SetFontSize 40
 	# SetBorderColor 255 125 0 160
 	# PlayEffect Blue
@@ -367,7 +367,7 @@ Show #T1 Jewellery
 	# Corrupted False
 	# ItemLevel >= 82
 	# Rarity Normal Magic Rare
-	# BaseType == "Gelid Staff" "Chiming Staff"
+	# BaseType == "Gelid Staff" "Rattling Sceptre"
 	# SetBorderColor 255 125 0 160
 	
 # Show # T3
@@ -375,7 +375,7 @@ Show #T1 Jewellery
 	# Corrupted False
 	# ItemLevel >= 82
 	# Rarity Normal Magic Rare
-	# BaseType == "Withered Wand" "Bone Wand" "Attuned Wand" "Siphoning Wand" "Volatile Wand" "Galvanic Wand" "Acrid Wand" "Offering Wand" "Frigid Wand" "Torture Wand" "Critical Wand" "Primordial Wand" "Dueling Wand" "Ashen Staff" "Voltaic Staff" "Spriggan Staff" "Pyrophyte Staff" "Rending Staff" "Reaping Staff" "Icicle Staff" "Roaring Staff" "Paralysing Staff" "Cleric Staff" "Dark Staff" "Stoic Sceptre" "Lupine Sceptre" "Ochre Sceptre" "Shrine Sceptre" "Devouring Sceptre" "Clasped Sceptre" "Devotional Sceptre" "Wrath Sceptre" "Aromatic Sceptre" "Pious Sceptre" "Hallowed Sceptre"
+	# BaseType == "Withered Wand" "Bone Wand" "Volatile Wand" "Galvanic Wand" "Acrid Wand" "Offering Wand" "Frigid Wand" "Torture Wand" "Critical Wand" "Primordial Wand" "Dueling Wand" "Ashen Staff" "Voltaic Staff" "Spriggan Staff" "Pyrophyte Staff" "Rending Staff" "Reaping Staff" "Icicle Staff" "Roaring Staff" "Paralysing Staff" "Cleric Staff" "Dark Staff" "Stoic Sceptre" "Lupine Sceptre" "Ochre Sceptre" "Shrine Sceptre" "Devouring Sceptre" "Clasped Sceptre" "Devotional Sceptre" "Wrath Sceptre" "Aromatic Sceptre" "Pious Sceptre" "Hallowed Sceptre"
 	# SetBorderColor 255 125 0 160
 	
 # Show #T1 Offhand
@@ -414,7 +414,7 @@ Show #T1 Jewellery
 	# Corrupted False
 	# ItemLevel >= 80
 	# Rarity Normal Magic Rare
-	# BaseType == "Breach Ring" "Bloodstone Amulet" "Solar Amulet" "Lunar Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Stellar Amulet" "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Amethyst Ring" "Prismatic Ring" "Pearl Ring" "Golden Obi" "Rawhide Belt" "Utility Belt" "Golden Charm" "Stone Charm" "Thawing Charm" "Dousing Charm" "Antidote Charm" "Expert Intricate Gloves" "Expert Spined Bracers" "Expert Spiral Wraps" "Expert Feathered Sandals" "Expert Lizardscale Boots" "Expert Hunting Shoes" "Expert Hexer's Robe" "Expert Studded Vest" "Expert Sacrificial Mantle" "Expert Waxed Jacket" "Expert Wayfarer Jacket" "Expert Scalper's Jacket" "Expert Feathered Tiara" "Expert Hunter Hood" "Expert Tribal Mask" "Expert Omen Crest Shield" "Expert Crystal Focus" "Expert Plumed Focus" "Expert Dualstring Bow" "Rattling Sceptre" "Expert Gothic Quarterstaff" "Expert Slicing Quarterstaff" "Omen Sceptre" "Primed Quiver"
+	# BaseType == "Breach Ring" "Bloodstone Amulet" "Solar Amulet" "Lunar Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Stellar Amulet" "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Amethyst Ring" "Prismatic Ring" "Pearl Ring" "Golden Obi" "Rawhide Belt" "Utility Belt" "Golden Charm" "Stone Charm" "Thawing Charm" "Dousing Charm" "Antidote Charm" "Expert Intricate Gloves" "Expert Spined Bracers" "Expert Spiral Wraps" "Expert Feathered Sandals" "Expert Lizardscale Boots" "Expert Hunting Shoes" "Expert Hexer's Robe" "Expert Studded Vest" "Expert Sacrificial Mantle" "Expert Waxed Jacket" "Expert Wayfarer Jacket" "Expert Scalper's Jacket" "Expert Feathered Tiara" "Expert Hunter Hood" "Expert Tribal Mask" "Expert Omen Crest Shield" "Expert Crystal Focus" "Expert Plumed Focus" "Expert Dualstring Bow" "Expert Gothic Quarterstaff" "Expert Slicing Quarterstaff" "Omen Sceptre" "Attuned Wand" "Siphoning Wand" "Chiming Staff" "Primed Quiver"
 	# SetFontSize 40
 	# SetBorderColor 200 200 0 160
 
@@ -428,7 +428,7 @@ Show #T1 Jewellery
 	# ItemLevel <= 79
 	# ItemLevel >= 65
 	# Rarity Normal Magic Rare
-	# BaseType == "Breach Ring" "Bloodstone Amulet" "Solar Amulet" "Lunar Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Stellar Amulet" "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Amethyst Ring" "Prismatic Ring" "Pearl Ring" "Golden Obi" "Rawhide Belt" "Utility Belt" "Golden Charm" "Stone Charm" "Thawing Charm" "Dousing Charm" "Antidote Charm" "Expert Intricate Gloves" "Expert Spined Bracers" "Expert Spiral Wraps" "Expert Feathered Sandals" "Expert Lizardscale Boots" "Expert Hunting Shoes" "Expert Hexer's Robe" "Expert Studded Vest" "Expert Sacrificial Mantle" "Expert Waxed Jacket" "Expert Wayfarer Jacket" "Expert Scalper's Jacket" "Expert Feathered Tiara" "Expert Hunter Hood" "Expert Tribal Mask" "Expert Omen Crest Shield" "Expert Crystal Focus" "Expert Plumed Focus" "Expert Dualstring Bow" "Rattling Sceptre" "Expert Gothic Quarterstaff" "Expert Slicing Quarterstaff" "Omen Sceptre" "Primed Quiver"
+	# BaseType == "Breach Ring" "Bloodstone Amulet" "Solar Amulet" "Lunar Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Stellar Amulet" "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Amethyst Ring" "Prismatic Ring" "Pearl Ring" "Golden Obi" "Rawhide Belt" "Utility Belt" "Golden Charm" "Stone Charm" "Thawing Charm" "Dousing Charm" "Antidote Charm" "Expert Intricate Gloves" "Expert Spined Bracers" "Expert Spiral Wraps" "Expert Feathered Sandals" "Expert Lizardscale Boots" "Expert Hunting Shoes" "Expert Hexer's Robe" "Expert Studded Vest" "Expert Sacrificial Mantle" "Expert Waxed Jacket" "Expert Wayfarer Jacket" "Expert Scalper's Jacket" "Expert Feathered Tiara" "Expert Hunter Hood" "Expert Tribal Mask" "Expert Omen Crest Shield" "Expert Crystal Focus" "Expert Plumed Focus" "Expert Dualstring Bow" "Expert Gothic Quarterstaff" "Expert Slicing Quarterstaff" "Omen Sceptre" "Attuned Wand" "Siphoning Wand" "Chiming Staff" "Primed Quiver"
 	# SetFontSize 38
 	# SetBorderColor 255 255 255 160
 
@@ -779,7 +779,7 @@ Show # t3
 Show # t1
 	ItemLevel >= 65
 	Rarity Rare
-	BaseType == "Expert Intricate Gloves" "Expert Spined Bracers" "Expert Moulded Mitts" "Expert Spiral Wraps" "Expert Feathered Sandals" "Expert Lizardscale Boots" "Expert Stone Greaves" "Expert Hunting Shoes" "Expert Hexer's Robe" "Expert Studded Vest" "Expert Sacrificial Mantle" "Expert Waxed Jacket" "Expert Wayfarer Jacket" "Expert Iron Cuirass" "Expert Scalper's Jacket" "Expert Feathered Tiara" "Expert Hunter Hood" "Expert Elite Greathelm" "Expert Tribal Mask" "Expert Omen Crest Shield" "Expert Stone Tower Shield" "Expert Crystal Focus" "Expert Plumed Focus" "Expert Dualstring Bow" "Rattling Sceptre" "Expert Gothic Quarterstaff" "Expert Slicing Quarterstaff" "Omen Sceptre" "Primed Quiver"
+	BaseType == "Expert Intricate Gloves" "Expert Spined Bracers" "Expert Moulded Mitts" "Expert Spiral Wraps" "Expert Feathered Sandals" "Expert Lizardscale Boots" "Expert Stone Greaves" "Expert Hunting Shoes" "Expert Hexer's Robe" "Expert Studded Vest" "Expert Sacrificial Mantle" "Expert Waxed Jacket" "Expert Wayfarer Jacket" "Expert Iron Cuirass" "Expert Scalper's Jacket" "Expert Feathered Tiara" "Expert Hunter Hood" "Expert Elite Greathelm" "Expert Tribal Mask" "Expert Omen Crest Shield" "Expert Stone Tower Shield" "Expert Crystal Focus" "Expert Plumed Focus" "Expert Dualstring Bow" "Expert Gothic Quarterstaff" "Expert Slicing Quarterstaff" "Omen Sceptre"  "Attuned Wand" "Siphoning Wand" "Chiming Staff" "Primed Quiver"
 	SetFontSize 45
 	SetBackgroundColor 20 20 0 255
 
