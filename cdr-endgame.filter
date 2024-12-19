@@ -226,6 +226,35 @@ Show # normaldecorator
 #   Max Mod ILVL (82) Bases
 #------------------------------------
 
+Show #T1 Charms
+	Mirrored False
+	Corrupted False
+	ItemLevel >= 83
+	Rarity Normal Magic Rare
+	BaseType == "Golden Charm" "Stone Charm" "Thawing Charm" "Dousing Charm" "Antidote Charm"
+	SetFontSize 45
+	SetBorderColor 255 30 0 160
+	PlayAlertSound 3 300
+	PlayEffect Red
+	MinimapIcon 0 Red Diamond
+
+Show # T2
+	Mirrored False
+	Corrupted False
+	ItemLevel >= 83
+	Rarity Normal Magic Rare
+	BaseType == "Amethyst Charm" "Silver Charm" "Grounding Charm"
+	SetFontSize 40
+	SetBorderColor 255 30 0 160
+
+Show # T3
+	Mirrored False
+	Corrupted False
+	ItemLevel >= 83
+	Rarity Normal Magic Rare
+	BaseType == "Staunching Charm" "Ruby Charm" "Sapphire Charm" "Topaz Charm"
+	SetBorderColor 255 30 0 160
+
 Show #T1 Jewellery
 	Mirrored False
 	Corrupted False
