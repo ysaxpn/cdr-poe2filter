@@ -481,7 +481,7 @@ Show # %D1 $type->chancing $tier->hh
 	BaseType == "Heavy Belt" "Stellar Amulet" "Azure Amulet" "Emerald Ring"
 	SetFontSize 35
 	SetTextColor 255 255 255 255
-	SetBorderColor 0 150 0 90
+	SetBorderColor 0 150 0 255
 
 #------------------------------------
 #   [1309] Salvage
