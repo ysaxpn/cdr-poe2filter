@@ -1749,8 +1749,8 @@ Show # $type->currency $tier->t4exalt
 
 Show # %HS4 $type->currency $tier->t5glassblower
 	Class == "Stackable Currency"
-	BaseType == "Glassblower's Bauble" "Orb of Alchemy" "Vaal Orb" "Armourer's Scrap" "Chance Shard"
-	SetFontSize 45
+	BaseType == "Glassblower's Bauble" "Orb of Alchemy" "Vaal Orb" "Armourer's Scrap" "Chance Shard"  "Artificer's Orb" "Regal Orb"
+	SetFontSize 40
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 213 159 0 255
@@ -1759,8 +1759,8 @@ Show # %HS4 $type->currency $tier->t5glassblower
 
 Hide # %HS3 $type->currency $tier->t6artificer
 	Class == "Stackable Currency"
-	BaseType == "Artificer's Orb" "Regal Orb" "Black Scythe Artifact" "Sun Artifact" "Arcanist's Etcher" "Broken Circle Artifact" "Blacksmith's Whetstone"
-	SetFontSize 45
+	BaseType == "Black Scythe Artifact" "Sun Artifact" "Arcanist's Etcher" "Broken Circle Artifact" "Blacksmith's Whetstone"
+	SetFontSize 40
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 210 178 135 255
