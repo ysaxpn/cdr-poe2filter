@@ -1480,20 +1480,35 @@ Show # Trial Coins special
 	PlayEffect Red
 	MinimapIcon 0 Red Star
 
+Show # Djinn Barya 4 trials i80
+	Class == "Trial Coins"
+	BaseType == "Djinn Barya"
+	ItemLevel >= 80
+	SetFontSize 45
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 249 150 25 255
+	PlayAlertSound 2 300
+	PlayEffect Yellow
+	MinimapIcon 2 Yellow Circle
+
 Show # Djinn Barya 4 trials (4th ascension)
 	Class == "Trial Coins"
 	BaseType == "Djinn Barya"
+	AreaLevel <= 79
 	ItemLevel >= 75
 	SetFontSize 45
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 249 150 25 255
+	PlayAlertSound 2 300
 	PlayEffect Yellow
 	MinimapIcon 2 Yellow Circle
 	
 Show # Djinn Barya any
 	Class == "Trial Coins"
 	BaseType == "Djinn Barya"
+	AreaLevel <= 74
 	SetFontSize 45
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
@@ -1501,21 +1516,36 @@ Show # Djinn Barya any
 	PlayAlertSound 2 300
 	PlayEffect Grey
 	MinimapIcon 2 Grey Circle
-	
+
+Show # Inscribed Ultimatum 10 trials i80
+	Class == "Inscribed Ultimatum"
+	BaseType == "Inscribed Ultimatum"
+	ItemLevel >= 80
+	SetFontSize 45
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 249 150 25 255
+	PlayAlertSound 2 300
+	PlayEffect Yellow
+	MinimapIcon 2 Yellow Circle
+
 Show # Inscribed Ultimatum 10 trials (4th ascension)
 	Class == "Inscribed Ultimatum"
 	BaseType == "Inscribed Ultimatum"
+	AreaLevel <= 79
 	ItemLevel >= 75
 	SetFontSize 45
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 249 150 25 255
+	PlayAlertSound 2 300
 	PlayEffect Yellow
 	MinimapIcon 2 Yellow Circle
 	
 Show # Inscribed Ultimatum any
 	Class == "Inscribed Ultimatum"
 	BaseType == "Inscribed Ultimatum"
+	AreaLevel <= 74
 	SetFontSize 45
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
