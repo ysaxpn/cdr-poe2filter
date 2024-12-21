@@ -1293,124 +1293,124 @@ Show # %H5 $type->waystones $tier->waystones_b_t13
 	PlayEffect Yellow
 	MinimapIcon 1 Red Square
 
-# Show # %H5 $type->waystones $tier->waystones_b_t12
-	# WaystoneTier 12
-	# Class == "Waystones"
-	# SetFontSize 45
-	# SetTextColor 0 0 0 255
-	# SetBackgroundColor 200 200 200 255
-	# PlayEffect Yellow
-	# MinimapIcon 1 Red Square
+Show # %H5 $type->waystones $tier->waystones_b_t12
+	WaystoneTier 12
+	Class == "Waystones"
+	SetFontSize 45
+	SetTextColor 0 0 0 255
+	SetBackgroundColor 200 200 200 255
+	PlayEffect Yellow
+	MinimapIcon 1 Red Square
 
-# Show # %H5 $type->waystones $tier->waystones_b_t11
-	# WaystoneTier 11
-	# Class == "Waystones"
-	# AreaLevel <= 78
-	# SetFontSize 45
-	# SetTextColor 0 0 0 255
-	# SetBackgroundColor 200 200 200 255
-	# PlayEffect Yellow
-	# MinimapIcon 1 Red Square
+Show # %H5 $type->waystones $tier->waystones_b_t11
+	WaystoneTier 11
+	Class == "Waystones"
+	AreaLevel <= 77
+	SetFontSize 45
+	SetTextColor 0 0 0 255
+	SetBackgroundColor 200 200 200 255
+	PlayEffect Yellow
+	MinimapIcon 1 Red Square
 
-# Show # %H4 $type->waystones $tier->waystones_c_t10
-	# WaystoneTier 10
-	# Class == "Waystones"
-	# AreaLevel <= 77
-	# SetFontSize 45
-	# SetTextColor 255 255 255 255
-	# SetBackgroundColor 20 20 0 255
-	# PlayEffect White
-	# MinimapIcon 1 Yellow Square
+Show # %H4 $type->waystones $tier->waystones_c_t10
+	WaystoneTier 10
+	Class == "Waystones"
+	AreaLevel <= 76
+	SetFontSize 45
+	SetTextColor 255 255 255 255
+	SetBackgroundColor 20 20 0 255
+	PlayEffect White
+	MinimapIcon 1 Yellow Square
 
-# Show # %H4 $type->waystones $tier->waystones_c_t9
-	# WaystoneTier 9
-	# Class == "Waystones"
-	# AreaLevel <= 76
-	# SetFontSize 45
-	# SetTextColor 255 255 255 255
-	# SetBackgroundColor 20 20 0 255
-	# PlayEffect White
-	# MinimapIcon 1 Yellow Square
+Show # %H4 $type->waystones $tier->waystones_c_t9
+	WaystoneTier 9
+	Class == "Waystones"
+	AreaLevel <= 75
+	SetFontSize 45
+	SetTextColor 255 255 255 255
+	SetBackgroundColor 20 20 0 255
+	PlayEffect White
+	MinimapIcon 1 Yellow Square
 
-# Show # %H4 $type->waystones $tier->waystones_c_t8
-	# WaystoneTier 8
-	# Class == "Waystones"
-	# AreaLevel <= 75
-	# SetFontSize 45
-	# SetTextColor 255 255 255 255
-	# SetBackgroundColor 20 20 0 255
-	# PlayEffect White
-	# MinimapIcon 1 Yellow Square
+Show # %H4 $type->waystones $tier->waystones_c_t8
+	WaystoneTier 8
+	Class == "Waystones"
+	AreaLevel <= 74
+	SetFontSize 45
+	SetTextColor 255 255 255 255
+	SetBackgroundColor 20 20 0 255
+	PlayEffect White
+	MinimapIcon 1 Yellow Square
 
-# Show # %H4 $type->waystones $tier->waystones_c_t7
-	# WaystoneTier 7
-	# Class == "Waystones"
-	# AreaLevel <= 74
-	# SetFontSize 45
-	# SetTextColor 255 255 255 255
-	# SetBackgroundColor 20 20 0 255
-	# PlayEffect White
-	# MinimapIcon 1 Yellow Square
+Show # %H4 $type->waystones $tier->waystones_c_t7
+	WaystoneTier 7
+	Class == "Waystones"
+	AreaLevel <= 73
+	SetFontSize 45
+	SetTextColor 255 255 255 255
+	SetBackgroundColor 20 20 0 255
+	PlayEffect White
+	MinimapIcon 1 Yellow Square
 
-# Show # %H4 $type->waystones $tier->waystones_c_t6
-	# WaystoneTier 6
-	# Class == "Waystones"
-	# AreaLevel <= 73
-	# SetFontSize 45
-	# SetTextColor 255 255 255 255
-	# SetBackgroundColor 20 20 0 255
-	# PlayEffect White
-	# MinimapIcon 1 Yellow Square
+Show # %H4 $type->waystones $tier->waystones_c_t6
+	WaystoneTier 6
+	Class == "Waystones"
+	AreaLevel <= 72
+	SetFontSize 45
+	SetTextColor 255 255 255 255
+	SetBackgroundColor 20 20 0 255
+	PlayEffect White
+	MinimapIcon 1 Yellow Square
 
-# Show # %H4 $type->waystones $tier->waystones_d_t5
-	# WaystoneTier 5
-	# Class == "Waystones"
-	# AreaLevel <= 72
-	# SetFontSize 45
-	# SetTextColor 255 255 255 255
-	# SetBackgroundColor 20 20 0 255
-	# PlayEffect White
-	# MinimapIcon 2 White Square
+Show # %H4 $type->waystones $tier->waystones_d_t5
+	WaystoneTier 5
+	Class == "Waystones"
+	AreaLevel <= 71
+	SetFontSize 45
+	SetTextColor 255 255 255 255
+	SetBackgroundColor 20 20 0 255
+	PlayEffect White
+	MinimapIcon 2 White Square
 
-# Show # %H4 $type->waystones $tier->waystones_d_t4
-	# WaystoneTier 4
-	# Class == "Waystones"
-	# AreaLevel <= 71
-	# SetFontSize 45
-	# SetTextColor 255 255 255 255
-	# SetBackgroundColor 20 20 0 255
-	# PlayEffect White
-	# MinimapIcon 2 White Square
+Show # %H4 $type->waystones $tier->waystones_d_t4
+	WaystoneTier 4
+	Class == "Waystones"
+	AreaLevel <= 70
+	SetFontSize 45
+	SetTextColor 255 255 255 255
+	SetBackgroundColor 20 20 0 255
+	PlayEffect White
+	MinimapIcon 2 White Square
 
-# Show # %H4 $type->waystones $tier->waystones_d_t3
-	# WaystoneTier 3
-	# Class == "Waystones"
-	# AreaLevel <= 70
-	# SetFontSize 45
-	# SetTextColor 255 255 255 255
-	# SetBackgroundColor 20 20 0 255
-	# PlayEffect White
-	# MinimapIcon 2 White Square
+Show # %H4 $type->waystones $tier->waystones_d_t3
+	WaystoneTier 3
+	Class == "Waystones"
+	AreaLevel <= 69
+	SetFontSize 45
+	SetTextColor 255 255 255 255
+	SetBackgroundColor 20 20 0 255
+	PlayEffect White
+	MinimapIcon 2 White Square
 
-# Show # %H4 $type->waystones $tier->waystones_d_t2
-	# WaystoneTier 2
-	# Class == "Waystones"
-	# AreaLevel <= 69
-	# SetFontSize 45
-	# SetTextColor 255 255 255 255
-	# SetBackgroundColor 20 20 0 255
-	# PlayEffect White
-	# MinimapIcon 2 White Square
+Show # %H4 $type->waystones $tier->waystones_d_t2
+	WaystoneTier 2
+	Class == "Waystones"
+	AreaLevel <= 68
+	SetFontSize 45
+	SetTextColor 255 255 255 255
+	SetBackgroundColor 20 20 0 255
+	PlayEffect White
+	MinimapIcon 2 White Square
 
-# Show # %H4 $type->waystones $tier->waystones_d_t1
-	# WaystoneTier 1
-	# Class == "Waystones"
-	# AreaLevel <= 68
-	# SetFontSize 45
-	# SetTextColor 255 255 255 255
-	# SetBackgroundColor 20 20 0 255
-	# PlayEffect White
-	# MinimapIcon 2 White Square
+Show # %H4 $type->waystones $tier->waystones_d_t1
+	WaystoneTier 1
+	Class == "Waystones"
+	AreaLevel <= 67
+	SetFontSize 45
+	SetTextColor 255 255 255 255
+	SetBackgroundColor 20 20 0 255
+	PlayEffect White
+	MinimapIcon 2 White Square
 
 Hide # $type->waystones $tier->lowtier
 	WaystoneTier <= 12
