@@ -162,12 +162,12 @@ Show
 #   Decorators
 #------------------------------------
 
-Show # raredecoratorilvl71
+Show # raredecoratorilvl82
 	Mirrored False
 	Corrupted False
-	ItemLevel >= 71
+	ItemLevel >= 82
 	Rarity Rare
-	SetTextColor 245 190 0 255
+	SetTextColor 255 140 0 255
 	Continue
 
 Show # raredecoratorilvl80
@@ -178,12 +178,12 @@ Show # raredecoratorilvl80
 	SetTextColor 250 165 0 255
 	Continue
 
-Show # raredecoratorilvl82
+Show # raredecoratorilvl71
 	Mirrored False
 	Corrupted False
-	ItemLevel >= 82
+	ItemLevel >= 71
 	Rarity Rare
-	SetTextColor 255 140 0 255
+	SetTextColor 245 190 0 255
 	Continue
 
 Show # raredecoratorgear
@@ -1925,7 +1925,7 @@ Show # $type->keys $tier->t1
 	PlayEffect Green
 	MinimapIcon 0 Green Pentagon
 
-Show # $type->runes $tier->restex
+Show # $type->keys $tier->restex
 	Class == "Stackable Currency"
 	BaseType " Key"
 	SetFontSize 45
