@@ -20,6 +20,7 @@
 # [[1000]] Exotic Item Classes
 # [[1100]] Exotic Item Variations
 # [[1300]] High Level Crafting Bases
+# [[1400]] Chancing Bases
 # [[1500]] Endgame Flasks
 # [[1700]] Hide Layer 1 - Normal and Magic Endgame Gear
 # [[2100]] Endgame - Conditional Hide Layers
@@ -490,7 +491,7 @@ Show # %D1 $type->chancing $tier->hh
 	Mirrored False
 	Corrupted False
 	Rarity Normal
-	BaseType == "Heavy Belt" "Stellar Amulet" "Azure Amulet" "Emerald Ring"
+	BaseType == "Heavy Belt" "Stellar Amulet" "Azure Amulet" "Emerald Ring" "Sapphire Ring"
 	SetFontSize 35
 	SetTextColor 255 255 255 255
 	SetBorderColor 0 150 0 255
