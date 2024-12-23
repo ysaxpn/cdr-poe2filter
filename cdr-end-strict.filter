@@ -228,7 +228,7 @@ Show # normaldecorator
 	Continue
 
 #------------------------------------
-#   [1304] Max Mod ILVL (82/83) Bases
+#   [1304] Max Mod ILVL (81/82/83) Bases
 #------------------------------------
 
 Show #T1 Charms
@@ -268,7 +268,7 @@ Show #T1 Jewellery
 	BaseType == "Bloodstone Amulet" "Solar Amulet" "Lunar Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Stellar Amulet" "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Amethyst Ring" "Prismatic Ring" "Pearl Ring" "Golden Obi" "Rawhide Belt" "Utility Belt" "Golden Charm" "Stone Charm" "Thawing Charm" "Dousing Charm" "Antidote Charm"
 	SetFontSize 45
 	SetBorderColor 255 125 0 160
-	
+
 # Show # T2
 	# Mirrored False
 	# Corrupted False
@@ -276,7 +276,7 @@ Show #T1 Jewellery
 	# Rarity Normal Magic
 	# BaseType == "Gold Amulet" "Unset Ring" "Gold Ring" "Linen Belt" "Plate Belt" "Mail Belt" "Heavy Belt" "Amethyst Charm" "Silver Charm" "Grounding Charm"
 	# SetBorderColor 255 125 0 160
-	
+
 # Show # T3
 	# Mirrored False
 	# Corrupted False
@@ -284,7 +284,7 @@ Show #T1 Jewellery
 	# Rarity Normal Magic
 	# BaseType == "Crimson Amulet" "Azure Amulet" "Iron Ring" "Lazuli Ring" "Emerald Ring" "Wide Belt" "Long Belt" "Ornate Belt" "Double Belt" "Staunching Charm" "Ruby Charm" "Sapphire Charm" "Topaz Charm"
 	# SetBorderColor 255 125 0 160
-	
+
 # Show #T1 Armour
 	# Mirrored False
 	# Corrupted False
@@ -295,7 +295,7 @@ Show #T1 Jewellery
 	# SetBorderColor 255 125 0 160
 	# PlayEffect Blue
 	# MinimapIcon 0 Blue Diamond
-	
+
 # Show # T2
 	# Mirrored False
 	# Corrupted False
@@ -314,7 +314,7 @@ Show #T1 Jewellery
 	# SetBorderColor 255 125 0 160
 	# PlayEffect Blue
 	# MinimapIcon 0 Blue Diamond
-	
+
 # Show # T2
 	# Mirrored False
 	# Corrupted False
@@ -322,7 +322,7 @@ Show #T1 Jewellery
 	# Rarity Normal Magic
 	# BaseType == "Expert Construct Hammer"
 	# SetBorderColor 255 125 0 160
-	
+
 # Show # T3
 	# Mirrored False
 	# Corrupted False
@@ -341,7 +341,7 @@ Show #T1 Jewellery
 	# SetBorderColor 255 125 0 160
 	# PlayEffect Blue
 	# MinimapIcon 0 Blue Diamond
-	
+
 # Show # T2
 	# Mirrored False
 	# Corrupted False
@@ -349,7 +349,7 @@ Show #T1 Jewellery
 	# Rarity Normal Magic
 	# BaseType == "Expert Warden Bow" "Expert Dyad Crossbow" "Expert Bombard Crossbow" "Expert Barrier Quarterstaff" "Expert Gothic Quarterstaff"
 	# SetBorderColor 255 125 0 160
-	
+
 # Show # T3
 	# Mirrored False
 	# Corrupted False
@@ -357,34 +357,61 @@ Show #T1 Jewellery
 	# Rarity Normal Magic
 	# BaseType == "Expert Shortbow" "Expert Cultist Bow" "Regalia Longsword" "Ultra Greatsword" "Vile Greataxe" "Expert Temple Maul" "Expert Oak Greathammer" "Expert Cultist Greathammer" "Expert Crumbling Maul" "Expert Leaden Greathammer" "Expert Crescent Quarterstaff" "Expert Long Quarterstaff" "Expert Crackling Quarterstaff" "Expert Tense Crossbow" "Expert Forlorn Crossbow"
 	# SetBorderColor 255 125 0 160
-	
-# Show #T1 Caster Weapons
-	# Mirrored False
-	# Corrupted False
-	# ItemLevel >= 82
-	# Rarity Normal Magic
-	# BaseType == "Rattling Sceptre" "Chiming Staff" "Attuned Wand" "Siphoning Wand"
-	# SetFontSize 40
-	# SetBorderColor 255 125 0 160
-	# PlayEffect Blue
-	# MinimapIcon 0 Blue Diamond
-	
+
+# Show #T1 Wands/Staves
+# 	Mirrored False
+# 	Corrupted False
+# 	ItemLevel >= 81
+# 	Rarity Normal Magic
+# 	BaseType == "Chiming Staff" "Attuned Wand" "Siphoning Wand"
+# 	SetFontSize 40
+# 	SetBorderColor 255 125 0 160
+# 	PlayEffect Blue
+# 	MinimapIcon 0 Blue Diamond
+
 # Show # T2
-	# Mirrored False
-	# Corrupted False
-	# ItemLevel >= 82
-	# Rarity Normal Magic
-	# BaseType == "Gelid Staff" "Omen Sceptre"
-	# SetBorderColor 255 125 0 160
-	
+# 	Mirrored False
+# 	Corrupted False
+# 	ItemLevel >= 81
+# 	Rarity Normal Magic
+# 	BaseType == "Gelid Staff"
+# 	SetBorderColor 255 125 0 160
+
 # Show # T3
-	# Mirrored False
-	# Corrupted False
-	# ItemLevel >= 82
-	# Rarity Normal Magic
-	# BaseType == "Withered Wand" "Bone Wand" "Volatile Wand" "Galvanic Wand" "Acrid Wand" "Offering Wand" "Frigid Wand" "Torture Wand" "Critical Wand" "Primordial Wand" "Dueling Wand" "Ashen Staff" "Voltaic Staff" "Spriggan Staff" "Pyrophyte Staff" "Rending Staff" "Reaping Staff" "Icicle Staff" "Roaring Staff" "Paralysing Staff" "Cleric Staff" "Dark Staff" "Stoic Sceptre" "Lupine Sceptre" "Ochre Sceptre" "Shrine Sceptre" "Devouring Sceptre" "Clasped Sceptre" "Devotional Sceptre" "Wrath Sceptre" "Aromatic Sceptre" "Pious Sceptre" "Hallowed Sceptre"
-	# SetBorderColor 255 125 0 160
-	
+# 	Mirrored False
+# 	Corrupted False
+# 	ItemLevel >= 81
+# 	Rarity Normal Magic
+# 	BaseType == "Withered Wand" "Bone Wand" "Volatile Wand" "Galvanic Wand" "Acrid Wand" "Offering Wand" "Frigid Wand" "Torture Wand" "Critical Wand" "Primordial Wand" "Dueling Wand" "Ashen Staff" "Voltaic Staff" "Spriggan Staff" "Pyrophyte Staff" "Rending Staff" "Reaping Staff" "Icicle Staff" "Roaring Staff" "Paralysing Staff" "Cleric Staff" "Dark Staff"
+# 	SetBorderColor 255 125 0 160
+
+# Show #T1 Sceptres
+# 	Mirrored False
+# 	Corrupted False
+# 	ItemLevel >= 82
+# 	Rarity Normal Magic
+# 	BaseType == "Rattling Sceptre"
+# 	SetFontSize 40
+# 	SetBorderColor 255 125 0 160
+# 	PlayEffect Blue
+# 	MinimapIcon 0 Blue Diamond
+
+# Show # T2
+# 	Mirrored False
+# 	Corrupted False
+# 	ItemLevel >= 82
+# 	Rarity Normal Magic
+# 	BaseType == "Omen Sceptre"
+# 	SetBorderColor 255 125 0 160
+
+# Show # T3
+# 	Mirrored False
+# 	Corrupted False
+# 	ItemLevel >= 82
+# 	Rarity Normal Magic
+# 	BaseType == "Stoic Sceptre" "Lupine Sceptre" "Ochre Sceptre" "Shrine Sceptre" "Devouring Sceptre" "Clasped Sceptre" "Devotional Sceptre" "Wrath Sceptre" "Aromatic Sceptre" "Pious Sceptre" "Hallowed Sceptre"
+# 	SetBorderColor 255 125 0 160
+
 # Show #T1 Offhand
 	# Mirrored False
 	# Corrupted False
@@ -395,7 +422,7 @@ Show #T1 Jewellery
 	# SetBorderColor 255 125 0 160
 	# PlayEffect Blue
 	# MinimapIcon 0 Blue Diamond
-	
+
 # Show # T2
 	# Mirrored False
 	# Corrupted False
@@ -403,7 +430,7 @@ Show #T1 Jewellery
 	# Rarity Normal Magic
 	# BaseType == "Two-Point Quiver" "Volant Quiver" "Visceral Quiver" "Penetrating Quiver"
 	# SetBorderColor 255 125 0 160
-	
+
 # Show # T3
 	# Mirrored False
 	# Corrupted False
