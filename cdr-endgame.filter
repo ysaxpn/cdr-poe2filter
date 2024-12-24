@@ -571,7 +571,7 @@ Show # Arcanist's Etchers
 	SetBackgroundColor 130 110 110 255
 
 Show # Armourer's Scraps
-	Class == "Body Armours" "Boots" "Gloves" "Helmets"
+	Class == "Body Armours" "Boots" "Gloves" "Helmets" "Shields"
 	Quality >= 10
 	Rarity Normal Magic
 	AreaLevel >= 65
