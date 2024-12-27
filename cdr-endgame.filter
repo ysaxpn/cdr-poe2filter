@@ -1990,52 +1990,52 @@ Show # $type->keys $tier->restex
 #------------------------------------
 
 # Show # $type->currency->catalyst $tier->t1
-	# Class == "Stackable Currency"
-	# BaseType == ""
-	# SetFontSize 45
-	# SetTextColor 255 0 0 255
-	# SetBorderColor 255 0 0 255
-	# SetBackgroundColor 255 255 255 255
-	# PlayAlertSound 6 300
-	# PlayEffect Red
-	# MinimapIcon 0 Red Star
+# 	Class == "Stackable Currency"
+# 	BaseType == ""
+# 	SetFontSize 45
+# 	SetTextColor 255 0 0 255
+# 	SetBorderColor 255 0 0 255
+# 	SetBackgroundColor 255 255 255 255
+# 	PlayAlertSound 6 300
+# 	PlayEffect Red
+# 	MinimapIcon 0 Red Star
 
 # Show # $type->currency->catalyst $tier->t2
-	# Class == "Stackable Currency"
-	# BaseType == 
-	# SetFontSize 45
-	# SetTextColor 255 255 255 255
-	# SetBorderColor 255 255 255 255
-	# SetBackgroundColor 240 90 35 255
-	# PlayAlertSound 1 300
-	# PlayEffect Red
-	# MinimapIcon 0 Red Circle
+# 	Class == "Stackable Currency"
+# 	BaseType == 
+# 	SetFontSize 45
+# 	SetTextColor 255 255 255 255
+# 	SetBorderColor 255 255 255 255
+# 	SetBackgroundColor 240 90 35 255
+# 	PlayAlertSound 1 300
+# 	PlayEffect Red
+# 	MinimapIcon 0 Red Circle
 
 # Show # %HS5 $type->currency->catalyst $tier->t3
-	# Class == "Stackable Currency"
-	# BaseType == 
-	# SetFontSize 45
-	# SetTextColor 0 0 0 255
-	# SetBorderColor 0 0 0 255
-	# SetBackgroundColor 240 90 35 255
-	# PlayAlertSound 2 300
-	# PlayEffect Yellow
-	# MinimapIcon 1 Yellow Circle
+# 	Class == "Stackable Currency"
+# 	BaseType == 
+# 	SetFontSize 45
+# 	SetTextColor 0 0 0 255
+# 	SetBorderColor 0 0 0 255
+# 	SetBackgroundColor 240 90 35 255
+# 	PlayAlertSound 2 300
+# 	PlayEffect Yellow
+# 	MinimapIcon 1 Yellow Circle
 
 # Show # %HS4 $type->currency->catalyst $tier->t4
-	# Class == "Stackable Currency"
-	# BaseType == ""
-	# SetFontSize 45
-	# SetTextColor 0 0 0 255
-	# SetBorderColor 0 0 0 255
-	# SetBackgroundColor 249 150 25 255
-	# PlayAlertSound 2 300
-	# PlayEffect White
-	# MinimapIcon 2 White Circle
+# 	Class == "Stackable Currency"
+# 	BaseType == ""
+# 	SetFontSize 45
+# 	SetTextColor 0 0 0 255
+# 	SetBorderColor 0 0 0 255
+# 	SetBackgroundColor 249 150 25 255
+# 	PlayAlertSound 2 300
+# 	PlayEffect White
+# 	MinimapIcon 2 White Circle
 
 Show # %HS3 $type->currency->catalyst $tier->t5
 	Class == "Stackable Currency"
-	BaseType == "Neural Catalyst" "Xoph's Catalyst" "Tul's Catalyst" "Esh's Catalyst" "Reaver Catalyst" "Chayula's Catalyst"
+	BaseType == "Adaptive Catalyst" "Neural Catalyst" "Tul's Catalyst" "Esh's Catalyst" "Reaver Catalyst" "Chayula's Catalyst"
 	SetFontSize 45
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
@@ -2044,40 +2044,40 @@ Show # %HS3 $type->currency->catalyst $tier->t5
 	PlayEffect Grey
 	MinimapIcon 2 Grey Circle
 
-# Show # %HS3 $type->currency->catalyst $tier->t6
-	# Class == "Stackable Currency"
-	# BaseType == 
-	# SetFontSize 45
-	# SetTextColor 0 0 0 255
-	# SetBorderColor 0 0 0 255
-	# SetBackgroundColor 210 178 135 255
-	# PlayAlertSound 2 300
-	# PlayEffect Grey
-	# MinimapIcon 2 Grey Circle
+Show # %HS3 $type->currency->catalyst $tier->t6
+	Class == "Stackable Currency"
+	BaseType == "Skittering Catalyst" "Uul-Netol's Catalyst" 
+	SetFontSize 45
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 210 178 135 255
+	PlayAlertSound 2 300
+	PlayEffect Grey
+	MinimapIcon 2 Grey Circle
 
 Show # %HS2 $type->currency->catalyst $tier->t7
 	Class == "Stackable Currency"
-	BaseType == "Flesh Catalyst" "Carapace Catalyst" "Adaptive Catalyst" "Sibilant Catalyst" "Skittering Catalyst"
-	SetFontSize 45
+	BaseType == "Flesh Catalyst" "Carapace Catalyst" "Sibilant Catalyst" "Xoph's Catalyst"
+	SetFontSize 40
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 210 178 135 255
 	MinimapIcon 2 Grey Circle
 
-Show # %H2 $type->currency->catalyst $tier->t8
-	Class == "Stackable Currency"
-	BaseType == "Uul-Netol's Catalyst"
-	SetFontSize 45
-	SetTextColor 190 178 135 255
-	SetBorderColor 190 178 135 255
-	SetBackgroundColor 20 20 0 255
-	MinimapIcon 2 Grey Circle
+# Show # %H2 $type->currency->catalyst $tier->t8
+# 	Class == "Stackable Currency"
+# 	BaseType == 
+# 	SetFontSize 45
+# 	SetTextColor 190 178 135 255
+# 	SetBorderColor 190 178 135 255
+# 	SetBackgroundColor 20 20 0 255
+# 	MinimapIcon 2 Grey Circle
 
 # Hide # $type->currency->catalyst $tier->exhide
-	# Class == "Stackable Currency"
-	# BaseType "Catalyst"
-	# SetFontSize 35
-	# SetBorderColor 0 0 0
+# 	Class == "Stackable Currency"
+# 	BaseType "Catalyst"
+# 	SetFontSize 35
+# 	SetBorderColor 0 0 0
 	
 Show # $type->currency->catalyst $tier->restex
 	Class == "Stackable Currency"
