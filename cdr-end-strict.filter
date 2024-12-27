@@ -1674,7 +1674,7 @@ Show # $type->fragments $tier->restex
 Show # $type->currency->stacked $tier->t1
 	StackSize >= 2
 	Class == "Stackable Currency"
-	BaseType == "Mirror of Kalandra" "Perfect Jeweller's Orb" "Greater Jeweller's Orb" "Divine Orb" "Distilled Disgust" "Distilled Despair" "Greater Essence of Torment" "Greater Essence of Ruin" "Greater Essence of Haste"
+	BaseType == "Mirror of Kalandra" "Perfect Jeweller's Orb" "Greater Jeweller's Orb" "Divine Orb" "Distilled Disgust" "Distilled Despair" "Greater Essence of Torment" "Greater Essence of Ruin" "Greater Essence of Haste" "Greater Essence of Sorcery"
 	SetFontSize 45
 	SetTextColor 255 0 0 255
 	SetBorderColor 255 0 0 255
@@ -1686,7 +1686,7 @@ Show # $type->currency->stacked $tier->t1
 Show # %D8 $type->currency->stackedsix $tier->t2
 	StackSize >= 2
 	Class == "Stackable Currency"
-	BaseType == "Exalted Orb" "Gemcutter's Prism" "Orb of Chance" "Orb of Annulment" "Chaos Orb" "Exotic Coinage" "Greater Essence of the Body" "Greater Essence of the Mind" "Greater Essence of Enhancement" "Greater Essence of the Infinite" "Greater Essence of Flames" "Greater Essence of Ice" "Greater Essence of Electricity" "Greater Essence of Battle" "Greater Essence of Sorcery"
+	BaseType == "Exalted Orb" "Gemcutter's Prism" "Orb of Chance" "Orb of Annulment" "Chaos Orb" "Exotic Coinage" "Distilled Paranoia" "Distilled Envy" "Distilled Greed" "Greater Essence of the Body" "Greater Essence of the Mind" "Greater Essence of Enhancement" "Greater Essence of the Infinite" "Greater Essence of Flames" "Greater Essence of Ice" "Greater Essence of Electricity" "Greater Essence of Battle"
 	SetFontSize 45
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
@@ -1698,7 +1698,7 @@ Show # %D8 $type->currency->stackedsix $tier->t2
 Show # $type->currency->stacked $tier->t3
 	StackSize >= 2
 	Class == "Stackable Currency"
-	BaseType == "Glassblower's Bauble" "Orb of Alchemy" "Artificer's Orb" "Arcanist's Etcher" "Lesser Jeweller's Orb" "Black Scythe Artifact" "Sun Artifact" "Vaal Orb" "Regal Orb" "Armourer's Scrap" "Blacksmith's Whetstone" "Chance Shard" "Distilled Paranoia" "Distilled Envy" "Distilled Greed" "Neural Catalyst" "Xoph's Catalyst" "Tul's Catalyst" "Esh's Catalyst" "Reaver Catalyst" "Chayula's Catalyst" "Essence of Torment" "Essence of Haste" "Essence of Electricity" "Essence of Battle" "Essence of Sorcery" "Essence of Ruin"
+	BaseType == "Glassblower's Bauble" "Orb of Alchemy" "Artificer's Orb" "Arcanist's Etcher" "Lesser Jeweller's Orb" "Black Scythe Artifact" "Sun Artifact" "Vaal Orb" "Regal Orb" "Armourer's Scrap" "Blacksmith's Whetstone" "Chance Shard" "Neural Catalyst" "Xoph's Catalyst" "Tul's Catalyst" "Esh's Catalyst" "Reaver Catalyst" "Chayula's Catalyst" "Essence of Torment" "Essence of Haste" "Essence of Electricity" "Essence of Battle" "Essence of Sorcery" "Essence of Ruin"
 	SetFontSize 45
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
@@ -1850,7 +1850,7 @@ Show # $type->currency->distilled $tier->t1
 
 Show # $type->currency->distilled $tier->t2
 	Class == "Stackable Currency"
-	BaseType ==  "Distilled Disgust" "Distilled Despair"
+	BaseType ==   "Distilled Despair"
 	SetFontSize 45
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
@@ -1859,31 +1859,31 @@ Show # $type->currency->distilled $tier->t2
 	PlayEffect Red
 	MinimapIcon 0 Red Circle
 
-# Show # %HS5 $type->currency->distilled $tier->t3
-	# Class == "Stackable Currency"
-	# BaseType == 
-	# SetFontSize 45
-	# SetTextColor 0 0 0 255
-	# SetBorderColor 0 0 0 255
-	# SetBackgroundColor 240 90 35 255
-	# PlayAlertSound 2 300
-	# PlayEffect Yellow
-	# MinimapIcon 1 Yellow Circle
+Show # %HS5 $type->currency->distilled $tier->t3
+	Class == "Stackable Currency"
+	BaseType == "Distilled Paranoia" "Distilled Envy" "Distilled Greed" "Distilled Disgust"
+	SetFontSize 45
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 240 90 35 255
+	PlayAlertSound 2 300
+	PlayEffect Yellow
+	MinimapIcon 1 Yellow Circle
 
 # Show # %HS4 $type->currency->distilled $tier->t4
-	# Class == "Stackable Currency"
-	# BaseType == 
-	# SetFontSize 45
-	# SetTextColor 0 0 0 255
-	# SetBorderColor 0 0 0 255
-	# SetBackgroundColor 249 150 25 255
-	# PlayAlertSound 2 300
-	# PlayEffect White
-	# MinimapIcon 2 White Circle
+# 	Class == "Stackable Currency"
+# 	BaseType == 
+# 	SetFontSize 45
+# 	SetTextColor 0 0 0 255
+# 	SetBorderColor 0 0 0 255
+# 	SetBackgroundColor 249 150 25 255
+# 	PlayAlertSound 2 300
+# 	PlayEffect White
+# 	MinimapIcon 2 White Circle
 
-Hide # %HS3 $type->currency->distilled $tier->t5
+Show # %HS3 $type->currency->distilled $tier->t5
 	Class == "Stackable Currency"
-	BaseType == "Distilled Paranoia" "Distilled Envy"
+	BaseType == "Distilled Ire" "Distilled Guilt"
 	SetFontSize 45
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
@@ -1892,40 +1892,40 @@ Hide # %HS3 $type->currency->distilled $tier->t5
 	PlayEffect Grey
 	MinimapIcon 2 Grey Circle
 
-# Show # %HS3 $type->currency->distilled $tier->t6
-	# Class == "Stackable Currency"
-	# BaseType == 
-	# SetFontSize 45
-	# SetTextColor 0 0 0 255
-	# SetBorderColor 0 0 0 255
-	# SetBackgroundColor 210 178 135 255
-	# PlayAlertSound 2 300
-	# PlayEffect Grey
-	# MinimapIcon 2 Grey Circle
+# Hide # %HS3 $type->currency->distilled $tier->t6
+# 	Class == "Stackable Currency"
+# 	BaseType == 
+# 	SetFontSize 45
+# 	SetTextColor 0 0 0 255
+# 	SetBorderColor 0 0 0 255
+# 	SetBackgroundColor 210 178 135 255
+# 	PlayAlertSound 2 300
+# 	PlayEffect Grey
+# 	MinimapIcon 2 Grey Circle
 
-Hide # %HS2 $type->currency->distilled $tier->t7
-	Class == "Stackable Currency"
-	BaseType == "Distilled Greed"
-	SetFontSize 45
-	SetTextColor 0 0 0 255
-	SetBorderColor 0 0 0 255
-	SetBackgroundColor 210 178 135 255
-	MinimapIcon 2 Grey Circle
+# Hide # %HS2 $type->currency->distilled $tier->t7
+# 	Class == "Stackable Currency"
+# 	BaseType == 
+# 	SetFontSize 45
+# 	SetTextColor 0 0 0 255
+# 	SetBorderColor 0 0 0 255
+# 	SetBackgroundColor 210 178 135 255
+# 	MinimapIcon 2 Grey Circle
 
-Hide # %H2 $type->currency->distilled $tier->t8
-	Class == "Stackable Currency"
-	BaseType == "Distilled Ire" "Distilled Guilt"
-	SetFontSize 45
-	SetTextColor 190 178 135 255
-	SetBorderColor 190 178 135 255
-	SetBackgroundColor 20 20 0 255
-	MinimapIcon 2 Grey Circle
+# Hide # %H2 $type->currency->distilled $tier->t8
+# 	Class == "Stackable Currency"
+# 	BaseType == 
+# 	SetFontSize 45
+# 	SetTextColor 190 178 135 255
+# 	SetBorderColor 190 178 135 255
+# 	SetBackgroundColor 20 20 0 255
+# 	MinimapIcon 2 Grey Circle
 
 # Hide # $type->currency->distilled $tier->exhide
-	# Class == "Stackable Currency"
-	# BaseType == "Distilled Despair" "Distilled Disgust" "Distilled Envy" "Distilled Fear" "Distilled Greed" "Distilled Guilt" "Distilled Ire" "Distilled Isolation" "Distilled Paranoia" "Distilled Suffering"
-	# SetFontSize 35
-	# SetBorderColor 0 0 0
+# 	Class == "Stackable Currency"
+# 	BaseType == "Distilled Despair" "Distilled Disgust" "Distilled Envy" "Distilled Fear" "Distilled Greed" "Distilled Guilt" "Distilled Ire" "Distilled Isolation" "Distilled Paranoia" "Distilled Suffering"
+# 	SetFontSize 35
+# 	SetBorderColor 0 0 0
 
 Show # $type->currency->distilled $tier->restex
 	Class == "Stackable Currency"
@@ -2070,20 +2070,20 @@ Show # $type->currency->catalyst $tier->restex
 #   [3708] Essences
 #------------------------------------
 	
-# Show # $type->currency->essence $tier->t1
-	# Class == "Stackable Currency"
-	# BaseType == 
-	# SetFontSize 45
-	# SetTextColor 255 0 0 255
-	# SetBorderColor 255 0 0 255
-	# SetBackgroundColor 255 255 255 255
-	# PlayAlertSound 6 300
-	# PlayEffect Red
-	# MinimapIcon 0 Red Star
+Show # $type->currency->essence $tier->t1
+	Class == "Stackable Currency"
+	BaseType == "Greater Essence of Haste" "Greater Essence of Torment"
+	SetFontSize 45
+	SetTextColor 255 0 0 255
+	SetBorderColor 255 0 0 255
+	SetBackgroundColor 255 255 255 255
+	PlayAlertSound 6 300
+	PlayEffect Red
+	MinimapIcon 0 Red Star
 
 Show # $type->currency->essence $tier->t2
 	Class == "Stackable Currency"
-	BaseType == "Greater Essence of Torment" "Greater Essence of Ruin" "Greater Essence of Haste"
+	BaseType ==  "Greater Essence of Ruin" "Greater Essence of Sorcery"
 	SetFontSize 45
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
@@ -2094,7 +2094,7 @@ Show # $type->currency->essence $tier->t2
 
 Show # %HS5 $type->currency->essence $tier->t3
 	Class == "Stackable Currency"
-	BaseType == "Greater Essence of the Body" "Greater Essence of the Mind" "Greater Essence of Enhancement" "Greater Essence of the Infinite" "Greater Essence of Flames" "Greater Essence of Ice" "Greater Essence of Electricity" "Greater Essence of Battle" "Greater Essence of Sorcery"
+	BaseType == "Greater Essence of the Body" "Greater Essence of the Mind" "Greater Essence of Enhancement" "Greater Essence of the Infinite" "Greater Essence of Flames" "Greater Essence of Ice" "Greater Essence of Electricity" "Greater Essence of Battle"
 	SetFontSize 45
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
@@ -2111,51 +2111,53 @@ Show # %HS4 $type->currency->essence$tier->t4
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 249 150 25 255
 	PlayAlertSound 2 300
-	PlayEffect White
-	MinimapIcon 2 White Circle
+	PlayEffect Yellow
+	MinimapIcon 2 Yellow Circle
 	
 Show # %HS3 $type->currency->catalyst $tier->t5
 	Class == "Stackable Currency"
-	BaseType == "Essence of Electricity" "Essence of Battle" "Essence of Sorcery" "Essence of Ruin"
+	BaseType == "Essence of Electricity" "Essence of Battle" "Essence of Sorcery" "Essence of Ruin" "Essence of Enhancement" "Essence of Flames" "Essence of Ice" "Essence of the Body" "Essence of the Mind" "Essence of the Infinite" 
 	SetFontSize 45
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
-	SetBackgroundColor 210 178 135 255
+	SetBackgroundColor 213 159 0 255
+	PlayEffect White
+	MinimapIcon 2 White Circle
 
-Hide # %HS3 $type->currency->catalyst $tier->t6
-	Class == "Stackable Currency"
-	BaseType == "Essence of Enhancement" "Essence of Flames" "Essence of Ice"
-	SetFontSize 45
-	SetTextColor 0 0 0 255
-	SetBorderColor 0 0 0 255
-	SetBackgroundColor 210 178 135 255
-	PlayAlertSound 2 300
-	PlayEffect Grey
-	MinimapIcon 2 Grey Circle
+# Hide # %HS3 $type->currency->catalyst $tier->t6
+# 	Class == "Stackable Currency"
+# 	BaseType == 
+# 	SetFontSize 45
+# 	SetTextColor 0 0 0 255
+# 	SetBorderColor 0 0 0 255
+# 	SetBackgroundColor 210 178 135 255
+# 	PlayAlertSound 2 300
+# 	PlayEffect Grey
+# 	MinimapIcon 2 Grey Circle
 
-Hide # %HS2 $type->currency->catalyst $tier->t7
-	Class == "Stackable Currency"
-	BaseType == "Essence of the Body" "Essence of the Mind" "Essence of the Infinite" 
-	SetFontSize 45
-	SetTextColor 0 0 0 255
-	SetBorderColor 0 0 0 255
-	SetBackgroundColor 210 178 135 255
-	MinimapIcon 2 Grey Circle
+# Hide # %HS2 $type->currency->catalyst $tier->t7
+# 	Class == "Stackable Currency"
+# 	BaseType == 
+# 	SetFontSize 45
+# 	SetTextColor 0 0 0 255
+# 	SetBorderColor 0 0 0 255
+# 	SetBackgroundColor 210 178 135 255
+# 	MinimapIcon 2 Grey Circle
 
 # Show # %H2 $type->currency->catalyst $tier->t8
-	# Class == "Stackable Currency"
-	# BaseType == 
-	# SetFontSize 45
-	# SetTextColor 190 178 135 255
-	# SetBorderColor 190 178 135 255
-	# SetBackgroundColor 20 20 0 255
-	# MinimapIcon 2 Grey Circle
+# 	Class == "Stackable Currency"
+# 	BaseType == 
+# 	SetFontSize 45
+# 	SetTextColor 190 178 135 255
+# 	SetBorderColor 190 178 135 255
+# 	SetBackgroundColor 20 20 0 255
+# 	MinimapIcon 2 Grey Circle
 
 # Hide # $type->currency->essence $tier->exhide
-	# Class == "Stackable Currency"
-	# BaseType "Essence of"
-	# SetFontSize 35
-	# SetBorderColor 0 0 0
+# 	Class == "Stackable Currency"
+# 	BaseType "Essence of"
+# 	SetFontSize 35
+# 	SetBorderColor 0 0 0
 	
 Show # $type->currency->essence $tier->restex
 	Class == "Stackable Currency"
