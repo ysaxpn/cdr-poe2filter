@@ -860,7 +860,7 @@ Show # 1modcorrupted
 	Corrupted True
 	AnyEnchantment True
 	Rarity Rare
-	BaseType == "Ruby" "Emerald" "Sapphire" "Diamond" "Time-Lost Ruby" "Time-Lost Emerald" "Time-Lost Sapphire" "Time-Lost Diamond"
+	BaseType == "Ruby" "Emerald" "Sapphire" "Time-Lost Ruby" "Time-Lost Emerald" "Time-Lost Sapphire" "Time-Lost Diamond"
 	SetFontSize 45
 	SetTextColor 220 220 0 255
 	SetBorderColor 0 240 190 255
@@ -901,7 +901,7 @@ Show # anymagic
 
 Show # anyrare
 	Rarity Rare
-	BaseType == "Ruby" "Emerald" "Sapphire" "Diamond"
+	BaseType == "Ruby" "Emerald" "Sapphire"
 	SetFontSize 45
 	SetTextColor 220 220 0 255
 	SetBorderColor 220 220 0 255
@@ -911,7 +911,7 @@ Show # anyrare
 
 Show # anymagic
 	Rarity Normal Magic
-	BaseType == "Ruby" "Emerald" "Sapphire" "Diamond"
+	BaseType == "Ruby" "Emerald" "Sapphire"
 	SetFontSize 40
 	SetTextColor 0 75 250 255
 	SetBorderColor 0 75 250 255
