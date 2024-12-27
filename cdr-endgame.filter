@@ -456,7 +456,7 @@ Show # T1
 	Rarity Normal Magic
 	BaseType == "Bloodstone Amulet" "Solar Amulet" "Lunar Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Stellar Amulet" "Gold Amulet" "Gold Ring" "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Amethyst Ring" "Prismatic Ring" "Pearl Ring" "Golden Obi" "Rawhide Belt" "Utility Belt" "Golden Charm" "Stone Charm" "Thawing Charm" "Dousing Charm" "Antidote Charm" "Expert Intricate Gloves" "Expert Spined Bracers" "Expert Moulded Mitts" "Expert Spiral Wraps" "Expert Feathered Sandals" "Expert Lizardscale Boots" "Expert Stone Greaves" "Expert Hunting Shoes" "Expert Hexer's Robe" "Expert Studded Vest" "Expert Waxed Jacket" "Expert Wayfarer Jacket" "Expert Iron Cuirass" "Expert Scalper's Jacket" "Expert Feathered Tiara" "Expert Hunter Hood" "Expert Elite Greathelm" "Expert Tribal Mask" "Expert Omen Crest Shield" "Expert Stone Tower Shield" "Expert Crystal Focus" "Expert Plumed Focus" "Expert Dualstring Bow" "Expert Forlorn Crossbow" "Expert Slicing Quarterstaff" "Rattling Sceptre" "Attuned Wand" "Siphoning Wand" "Chiming Staff" "Primed Quiver"
 	SetFontSize 38
-	SetBorderColor 200 200 0 160
+	SetBorderColor 250 250 220 160
 
 #------------------------------------
 #   [1306] ILVL ANY
