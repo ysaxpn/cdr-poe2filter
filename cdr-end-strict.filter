@@ -30,7 +30,8 @@
 # [[2500]] Hide Layer 2 - Rare Gear
 # [[2600]] Jewels
 # [[2800]] Gems & Socketable
-# [[3100]] Normal Waystone Progression
+# [[3000]] Special Waystones
+# [[3100]] Normal Waystones
 # [[3200]] Waystone-like Items
 # [[3300]] Fragments
 # [[3600]] Currency - Regular Currency Tiering
@@ -1092,9 +1093,53 @@ Show # $type->currency->soulcore $tier->restex
 	PlayAlertSound 3 300
 	PlayEffect Pink
 	MinimapIcon 0 Pink Circle
-	
+
 #===============================================================================================================
-# [[3100]] Corrupted or Mirrored
+# [[3000]] Special Waystones
+#===============================================================================================================
+
+#------------------------------------
+#   [3004] Special Waystones
+#------------------------------------
+
+Show # $type->waystones->corruptedspecial $tier->mod8
+	Corrupted True
+	Identified True
+	Class == "Waystones"
+	HasExplicitMod >=7 "a" "e" "i" "o" "u" "y"
+	SetFontSize 45
+	SetTextColor 0 0 0 255
+	SetBorderColor 255 128 0 255
+	SetBackgroundColor 235 235 235 255
+	PlayEffect Red
+	MinimapIcon 0 Red Pentagon
+	PlayAlertSound 1 300
+
+Show # %D6 $type->waystones->enchanted $tier->t1
+	AnyEnchantment True
+	WaystoneTier >= 14
+	Class == "Waystones"
+	SetFontSize 45
+	SetTextColor 27 27 27 255
+	SetBorderColor 66 66 66 255
+	SetBackgroundColor 220 200 225 255
+	PlayEffect Purple
+	MinimapIcon 0 Purple Square
+	PlayAlertSound 5 300
+
+Show # %D5 $type->waystones->enchanted $tier->any
+	AnyEnchantment True
+	Class == "Waystones"
+	SetFontSize 45
+	SetTextColor 131 131 131 255
+	SetBorderColor 117 117 117 255
+	SetBackgroundColor 220 200 225 255
+	PlayEffect Purple
+	MinimapIcon 0 Purple Square
+	PlayAlertSound 1 300
+
+#===============================================================================================================
+# [[3100]] Normal Waystones
 #===============================================================================================================
 
 #Hide  # corruptedwaystonehider
