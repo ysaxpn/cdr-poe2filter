@@ -1129,6 +1129,7 @@ Show # %D6 $type->waystones->enchanted $tier->t1
 
 Show # %D5 $type->waystones->enchanted $tier->any
 	AnyEnchantment True
+	WaystoneTier >= 11
 	Class == "Waystones"
 	SetFontSize 45
 	SetTextColor 131 131 131 255
