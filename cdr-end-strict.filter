@@ -2335,7 +2335,7 @@ Show # %DS4 $type->currency->stackedsplintershigh $tier->2
 
 # Show # %HS4 $type->currency->splinter $tier->t1
 	# Class == "Stackable Currency"
-	# BaseType == "Breach Splinter" "Simulacrum Splinter"
+	# BaseType == 
 	# SetFontSize 45
 	# SetTextColor 255 255 255 255
 	# SetBorderColor 210 20 210 255
@@ -2347,7 +2347,7 @@ Show # %DS4 $type->currency->stackedsplintershigh $tier->2
 Show # %HS3 $type->currency->splinter $tier->t2
 	Class == "Stackable Currency"
 	BaseType == "Breach Splinter" "Simulacrum Splinter"
-	SetFontSize 42
+	SetFontSize 45
 	SetTextColor 255 255 255 255
 	SetBackgroundColor 65 20 80
 	PlayEffect Grey Temp
