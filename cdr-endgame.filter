@@ -1809,7 +1809,7 @@ Show #  $type->currency->stacked $tier->t5
 
 Show # $type->currency $tier->t1perfectjeweller
 	Class == "Stackable Currency"
-	BaseType == "Mirror of Kalandra" "Perfect Jeweller's Orb" "Divine Orb"
+	BaseType == "Mirror of Kalandra" "Albino Rhoa Feather" "Perfect Jeweller's Orb" "Divine Orb"
 	SetFontSize 45
 	SetTextColor 255 0 0 255
 	SetBorderColor 255 0 0 255
