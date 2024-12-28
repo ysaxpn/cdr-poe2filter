@@ -2396,7 +2396,7 @@ Show # $type->currency $tier->restex
 
 Show # $type->uniques $tier->t1
 	Rarity Unique
-	BaseType == "Heavy Belt" "Armoured Cap" "Conqueror Plate" "Fine Bracers" "Ornate Belt" "Incense Relic" "Time-Lost Diamond" "Ring" "Chiming Staff" "Utility Belt" "Grand Visage" "Grand Regalia" "Garment" "Furtive Wraps" "Crucible Tower Shield" "Ultimate Life Flask" "Ultimate Mana Flask" "Closed Helm" "Knight Armour" "Wyrm Quarterstaff" "Diamond" "Emerald" "Ruby" "Sapphire" "Timeless Jewel"
+	BaseType == "Heavy Belt" "Armoured Cap" "Conqueror Plate" "Fine Bracers" "Ornate Belt" "Incense Relic" "Time-Lost Diamond" "Ring" "Chiming Staff" "Utility Belt" "Grand Visage" "Grand Regalia" "Garment" "Furtive Wraps" "Crucible Tower Shield" "Ultimate Life Flask" "Ultimate Mana Flask" "Closed Helm" "Knight Armour" "Wyrm Quarterstaff" "Diamond" "Emerald" "Ruby" "Sapphire" "Timeless Jewel" "Smuggler Coat"
 	SetFontSize 45
 	SetTextColor 175 96 37 255
 	SetBorderColor 175 96 37 255
@@ -2407,7 +2407,7 @@ Show # $type->uniques $tier->t1
 
 Show # $type->uniques $tier->t2
 	Rarity Unique
-	BaseType == "Smuggler Coat" "Burnished Gauntlets" "Felt Cap" "Tribal Mask" "Ironclad Vestments" "Lattice Sandals" "Threaded Shoes" "Lace Hood" "Altar Robe" "Stone Tower Shield" "Velour Shoes" "Grand Manchettes" "Grand Cuisses" "Jewelled Gloves"
+	BaseType == "Burnished Gauntlets" "Felt Cap" "Tribal Mask" "Ironclad Vestments" "Lattice Sandals" "Threaded Shoes" "Lace Hood" "Altar Robe" "Stone Tower Shield" "Velour Shoes" "Grand Manchettes" "Grand Cuisses" "Jewelled Gloves"
 	SetFontSize 45
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
