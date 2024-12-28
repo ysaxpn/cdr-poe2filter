@@ -1604,7 +1604,7 @@ Show # Inscribed Ultimatum 10 trials i80
 Show # Inscribed Ultimatum 10 trials (4th ascension)
 	Class == "Inscribed Ultimatum"
 	BaseType == "Inscribed Ultimatum"
-	AreaLevel <= 78
+	AreaLevel <= 79
 	ItemLevel >= 75
 	SetFontSize 45
 	SetTextColor 0 0 0 255
