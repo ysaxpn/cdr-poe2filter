@@ -939,59 +939,68 @@ Show # $type->uncutgem $level->19
 	MinimapIcon 0 Red Star
 	
 Show # $type->uncutgem $level->19
-	BaseType == "Uncut Skill Gem" "Uncut Spirit Gem"
+	BaseType == "Uncut Spirit Gem"
 	ItemLevel == 19
 	SetFontSize 45
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 240 90 35 255
-	PlayAlertSound 2 300
+	PlayAlertSound 1 300
 	PlayEffect Yellow
 	MinimapIcon 1 Yellow Triangle
 
+Show # $type->uncutgem $level->19
+	BaseType == "Uncut Skill Gem"
+	ItemLevel == 19
+	AreaLevel <= 81
+	SetFontSize 40
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 249 150 25 255
+
 # Show # $type->uncut->skill $level->18
-	# BaseType == "Uncut Skill Gem" "Uncut Spirit Gem"
-	# ItemLevel == 18
-	# AreaLevel <= 78
-	# SetFontSize 45
-	# SetTextColor 30 190 190 255
-	# SetBorderColor 30 190 190 255
-	# PlayAlertSound 2 300
-	# PlayEffect White
-	# MinimapIcon 1 White Triangle
+# 	BaseType == "Uncut Skill Gem" "Uncut Spirit Gem"
+# 	ItemLevel == 18
+# 	AreaLevel <= 77
+# 	SetFontSize 45
+# 	SetTextColor 30 190 190 255
+# 	SetBorderColor 30 190 190 255
+# 	PlayAlertSound 2 300
+# 	PlayEffect White
+# 	MinimapIcon 1 White Triangle
 
 # Show # $type->uncut->skill $level->17
-	# BaseType == "Uncut Skill Gem" "Uncut Spirit Gem"
-	# ItemLevel == 17
-	# AreaLevel <= 76
-	# SetFontSize 45
-	# SetTextColor 30 190 190 255
-	# SetBorderColor 30 190 190 255
-	# PlayAlertSound 2 300
-	# PlayEffect White
-	# MinimapIcon 1 White Triangle
+# 	BaseType == "Uncut Skill Gem" "Uncut Spirit Gem"
+# 	ItemLevel == 17
+# 	AreaLevel <= 75
+# 	SetFontSize 45
+# 	SetTextColor 30 190 190 255
+# 	SetBorderColor 30 190 190 255
+# 	PlayAlertSound 2 300
+# 	PlayEffect White
+# 	MinimapIcon 1 White Triangle
 
 # Show # $type->uncut->skill $level->16
-	# BaseType == "Uncut Skill Gem" "Uncut Spirit Gem"
-	# ItemLevel == 16
-	# AreaLevel <= 72
-	# SetFontSize 45
-	# SetTextColor 30 190 190 255
-	# SetBorderColor 30 190 190 255
-	# PlayAlertSound 2 300
-	# PlayEffect White
-	# MinimapIcon 1 White Triangle
+# 	BaseType == "Uncut Skill Gem" "Uncut Spirit Gem"
+# 	ItemLevel == 16
+# 	AreaLevel <= 69
+# 	SetFontSize 45
+# 	SetTextColor 30 190 190 255
+# 	SetBorderColor 30 190 190 255
+# 	PlayAlertSound 2 300
+# 	PlayEffect White
+# 	MinimapIcon 1 White Triangle
 
 # Show # $type->uncut->skill $level->15
-	# BaseType == "Uncut Skill Gem" "Uncut Spirit Gem"
-	# ItemLevel == 15
-	# AreaLevel <= 68
-	# SetFontSize 45
-	# SetTextColor 30 190 190 255
-	# SetBorderColor 30 190 190 255
-	# PlayAlertSound 2 300
-	# PlayEffect White
-	# MinimapIcon 1 White Triangle
+# 	BaseType == "Uncut Skill Gem" "Uncut Spirit Gem"
+# 	ItemLevel == 15
+# 	AreaLevel <= 65
+# 	SetFontSize 45
+# 	SetTextColor 30 190 190 255
+# 	SetBorderColor 30 190 190 255
+# 	PlayAlertSound 2 300
+# 	PlayEffect White
+# 	MinimapIcon 1 White Triangle
 
 Hide # uncutgem any skill spirit
 	BaseType == "Uncut Skill Gem" "Uncut Spirit Gem"
