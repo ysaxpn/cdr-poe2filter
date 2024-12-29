@@ -1177,29 +1177,29 @@ Show # $type->Waystones $tier->deco_zone1general
 	PlayAlertSound 5 300
 	Continue
 
-Show # $type->Waystones $tier->deco_zone2general
-	WaystoneTier >= 11
-	WaystoneTier <= 14
-	Class == "Waystones"
-	SetBorderColor 0 0 0 255
-	PlayAlertSound 4 300
-	Continue
+# Show # $type->Waystones $tier->deco_zone2general
+# 	WaystoneTier >= 11
+# 	WaystoneTier = 14
+# 	Class == "Waystones"
+# 	SetBorderColor 0 0 0 255
+# 	PlayAlertSound 4 300
+# 	Continue
 
-Show # $type->Waystones $tier->deco_zone3general
-	WaystoneTier >= 6
-	WaystoneTier <= 10
-	Class == "Waystones"
-	SetBorderColor 200 200 200 255
-	PlayAlertSound 4 300
-	Continue
+# Show # $type->Waystones $tier->deco_zone3general
+# 	WaystoneTier >= 6
+# 	WaystoneTier <= 10
+# 	Class == "Waystones"
+# 	SetBorderColor 200 200 200 255
+# 	PlayAlertSound 4 300
+# 	Continue
 
-Show # $type->Waystones $tier->deco_zone4general
-	WaystoneTier >= 1
-	WaystoneTier <= 5
-	Class == "Waystones"
-	SetBorderColor 200 200 200 255
-	PlayAlertSound 4 300
-	Continue
+# Show # $type->Waystones $tier->deco_zone4general
+# 	WaystoneTier >= 1
+# 	WaystoneTier <= 5
+# 	Class == "Waystones"
+# 	SetBorderColor 200 200 200 255
+# 	PlayAlertSound 4 300
+# 	Continue
 
 Show # $type->Waystones $tier->deco_waystoneup_t16
 	WaystoneTier >= 16
