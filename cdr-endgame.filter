@@ -1654,20 +1654,20 @@ Show # Inscribed Ultimatum any
 	# PlayEffect Red
 	# MinimapIcon 0 Red Star
 
-# Show # $type->fragments->tablets $tier->t2
-	# Class == "Tablet"
-	# BaseType == 
-	# SetFontSize 45
-	# SetTextColor 255 255 255 255
-	# SetBorderColor 255 255 255 255
-	# SetBackgroundColor 180 0 255 255
-	# PlayAlertSound 1 300
-	# PlayEffect Red
-	# MinimapIcon 0 Red Hexagon
+Show # $type->fragments->tablets $tier->t2
+	Class == "Tablet"
+	BaseType == "Ritual Precursor Tablet"
+	SetFontSize 45
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 180 0 255 255
+	PlayAlertSound 1 300
+	PlayEffect Red
+	MinimapIcon 0 Red Hexagon
 
 Show # $type->fragments->tablets $tier->t3
 	Class == "Tablet"
-	BaseType == "Expedition Precursor Tablet" "Ritual Precursor Tablet"
+	BaseType == "Expedition Precursor Tablet"
 	SetFontSize 45
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
@@ -1676,10 +1676,21 @@ Show # $type->fragments->tablets $tier->t3
 	PlayEffect Yellow
 	MinimapIcon 1 Yellow Hexagon
 
-Show # %H5 $type->fragments->tablets $tier->t4
+Show # $type->fragments->tablets $tier->t4
 	Class == "Tablet"
-	BaseType == "Precursor Tablet" "Breach Precursor Tablet" "Delirium Precursor Tablet"
+	BaseType == "Breach Precursor Tablet" "Delirium Precursor Tablet"
 	SetFontSize 45
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 175 120 230 240
+	PlayEffect White
+	MinimapIcon 2 White Hexagon
+	PlayAlertSound 2 300
+
+Show # $type->fragments->tablets $tier->t5
+	Class == "Tablet"
+	BaseType == "Precursor Tablet"
+	SetFontSize 40
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 175 120 230 240
