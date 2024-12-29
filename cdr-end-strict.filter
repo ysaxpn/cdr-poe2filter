@@ -2002,7 +2002,7 @@ Show # $type->currency->distilled $tier->restex
 
 Show # $type->keys $tier->t1
 	Class == "Stackable Currency"
-	BaseType == "Gold Key" "Silver Key" "Bronze Key"
+	BaseType == "Gold Key"
 	SetFontSize 45
 	SetTextColor 74 230 58 255
 	SetBorderColor 74 230 58 255
@@ -2010,6 +2010,28 @@ Show # $type->keys $tier->t1
 	PlayAlertSound 3 300
 	PlayEffect Green
 	MinimapIcon 0 Green Pentagon
+
+Show # $type->keys $tier->t2
+	Class == "Stackable Currency"
+	BaseType == "Silver Key"
+	SetFontSize 43
+	SetTextColor 74 230 58 255
+	SetBorderColor 74 230 58 255
+	SetBackgroundColor 20 20 0 255
+	PlayAlertSound 3 300
+	PlayEffect Green
+	MinimapIcon 1 Green Pentagon
+
+Show # $type->keys $tier->t3
+	Class == "Stackable Currency"
+	BaseType == "Bronze Key"
+	SetFontSize 42
+	SetTextColor 74 230 58 255
+	SetBorderColor 74 230 58 255
+	SetBackgroundColor 20 20 0 255
+	PlayAlertSound 3 300
+	PlayEffect Green
+	MinimapIcon 2 Green Pentagon
 
 Show # $type->keys $tier->restex
 	Class == "Stackable Currency"
