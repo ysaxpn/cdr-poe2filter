@@ -1579,7 +1579,6 @@ Hide # Djinn Barya 4 trials (4th ascension)
 Hide # Djinn Barya any
 	Class == "Trial Coins"
 	BaseType == "Djinn Barya"
-	AreaLevel <= 74
 	SetFontSize 45
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
@@ -1610,7 +1609,6 @@ Hide # Inscribed Ultimatum 10 trials (4th ascension)
 Hide # Inscribed Ultimatum any
 	Class == "Inscribed Ultimatum"
 	BaseType == "Inscribed Ultimatum"
-	AreaLevel <= 74
 	SetFontSize 45
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
