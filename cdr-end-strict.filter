@@ -2414,13 +2414,16 @@ Show # $type->currency $tier->restex
 #   [4201] Exceptions #1
 #------------------------------------
 
+# Extremely valuable uniques with filterable attributes, currently none
+
 #------------------------------------
-#   [4202] Tier 1 and 2 uniques
+#   [4202] Grade S and A (Tier 1 and 2) uniques
 #------------------------------------
 
+# S Grade: The most valuable uniques, ~25ex to infinity
 Show # $type->uniques $tier->t1
 	Rarity Unique
-	BaseType == "Heavy Belt" "Armoured Cap" "Conqueror Plate" "Fine Bracers" "Ornate Belt" "Incense Relic" "Time-Lost Diamond" "Ring" "Chiming Staff" "Utility Belt" "Grand Visage" "Grand Regalia" "Garment" "Furtive Wraps" "Crucible Tower Shield" "Ultimate Life Flask" "Ultimate Mana Flask" "Closed Helm" "Knight Armour" "Wyrm Quarterstaff" "Diamond" "Emerald" "Ruby" "Sapphire" "Timeless Jewel" "Smuggler Coat"
+	BaseType == "Ring" "Diamond" "Emerald Ring" "Gold Amulet" "Ultimate Mana Flask" "Utility Belt" "Incense Relic" "Smuggler Coat" "Sapphire" "Furtive Wraps" "Emerald" "Ultimate Life Flask" "Ornate Belt" "Vase Relic" "Time-Lost Diamond" "Ruby" "Armoured Cap" "Grand Regalia" "Stone Tower Shield" "Timeless Jewel" "Wyrm Quarterstaff" "Crucible Tower Shield" "Fine Bracers" "Conqueror Plate"
 	SetFontSize 45
 	SetTextColor 175 96 37 255
 	SetBorderColor 175 96 37 255
@@ -2429,9 +2432,10 @@ Show # $type->uniques $tier->t1
 	PlayEffect Red
 	MinimapIcon 0 Red Star
 
+# A Grade: High value uniques, ~10ex to ~20ex
 Show # $type->uniques $tier->t2
 	Rarity Unique
-	BaseType == "Burnished Gauntlets" "Felt Cap" "Tribal Mask" "Ironclad Vestments" "Lattice Sandals" "Threaded Shoes" "Lace Hood" "Altar Robe" "Stone Tower Shield" "Velour Shoes" "Grand Manchettes" "Grand Cuisses" "Jewelled Gloves"
+	BaseType == "Feathered Tiara" "Spiked Club" "Felt Cap" "Burnished Gauntlets" "Brimmed Helm" "Heavy Crown" "Altar Robe" "Dualstring Bow"
 	SetFontSize 45
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
@@ -2444,13 +2448,16 @@ Show # $type->uniques $tier->t2
 #   [4203] Exceptions #2
 #------------------------------------
 
+# Valuable, unusual uniques with filterable attributes, currently none
+
 #------------------------------------
-#   [4204] Multi-Unique bases.
+#   [4204] Multi-Unique bases
 #------------------------------------
 
+# Multiple uniques sharing the same base: very valuable uniques (S grade) AND cheap uniques. The filter can't say which one dropped. Always check these! There's a small chance for these to be very expensive
 Show # $type->uniques $tier->multispecialhigh
 	Rarity Unique
-	BaseType == "Gold Ring" "Stellar Amulet" "Solar Amulet" "Wide Belt" "Amethyst Ring" "Ruby Ring" "Topaz Ring" "Amber Amulet" "Emerald Ring" "Jade Amulet" "Lazuli Ring" "Sapphire Ring" "Gold Amulet" "Pearl Ring" "Crimson Amulet" "Lapis Amulet" "Rawhide Belt" "Azure Amulet" "Omen Crest Shield" "Chain Tiara" "Linen Wraps" "Silk Robe" "Explorer Armour" "Shrine Sceptre" "Moulded Mitts"
+	BaseType == "Heavy Belt" "Stellar Amulet" "Sapphire Ring" "Amethyst Ring" "Jade Amulet" "Tribal Mask" "Solar Amulet" "Azure Amulet" "Gold Ring"
 	SetFontSize 45
 	SetTextColor 0 0 0 255
 	SetBorderColor 120 150 255 255
@@ -2458,6 +2465,18 @@ Show # $type->uniques $tier->multispecialhigh
 	PlayAlertSound 3 300
 	PlayEffect Blue
 	MinimapIcon 1 Blue Star
+
+# Multiple uniques sharing the same base: somewhat valuable uniques (A grade) AND cheap uniques.
+Show # $type->uniques $tier->multispecial
+	Rarity Unique
+	BaseType == "Topaz Ring" "Crimson Amulet" "Pearl Ring" "Lazuli Ring" "Amber Amulet"
+	SetFontSize 40
+	SetTextColor 0 0 0 255
+	SetBorderColor 194 135 59
+	SetBackgroundColor 175 96 37 255
+	PlayAlertSound 2 300
+	PlayEffect Blue
+	MinimapIcon 2 Blue Star
 
 #------------------------------------
 #   [4205] Low tier exceptions
@@ -2473,54 +2492,109 @@ Show # $type->uniques $tier->multispecialhigh
 	# PlayEffect Brown
 	# MinimapIcon 2 Brown Star
 
-Show # $type->uniques $tier->exjewels
+Show # %D5 $type->uniques $tier->enchanteduniques
+	AnyEnchantment True
 	Rarity Unique
-	BaseType == "Ruby" "Emerald" "Sapphire" "Diamond" "Time-Lost Diamond"
+	Class == "Amulets" "Rings" "Belts" "Charms" "Body Armours" "Boots" "Gloves" "Helmets" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails" "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps" "Quivers" "Shields" "Foci" "Life Flasks" "Mana Flasks" "Jewels"
 	SetFontSize 45
-	SetTextColor 255 255 255 255
-	SetBorderColor 255 255 255 255
-	SetBackgroundColor 175 96 37 255
+	SetTextColor 175 96 37 255
+	SetBorderColor 255 0 0 239
+	SetBackgroundColor 53 13 13 255
 	PlayEffect Red
-	MinimapIcon 0 Yellow Star
+	MinimapIcon 2 Red Star
+	PlayAlertSound 3 300
+
+Show # %D5 $type->uniques $tier->extra2socketuniques
+	Sockets > 1
+	Rarity Unique
+	Class == "Boots" "Gloves" "Helmets" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails" "Shields" "Foci"
+	SetFontSize 45
+	SetTextColor 175 96 37 255
+	SetBorderColor 255 0 0 239
+	SetBackgroundColor 53 13 13 255
+	PlayEffect Red
+	MinimapIcon 2 Red Star
+	PlayAlertSound 3 300
+
+Show # %D5 $type->uniques $tier->extra3socketuniques
+	Corrupted True
+	Sockets > 2
+	Rarity Unique
+	Class == "Body Armours" "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps"
+	SetFontSize 45
+	SetTextColor 175 96 37 255
+	SetBorderColor 255 0 0 239
+	SetBackgroundColor 53 13 13 255
+	PlayEffect Red
+	MinimapIcon 2 Red Star
+	PlayAlertSound 3 300
+
+Show # %D5 $type->uniques $tier->noenchantnosocketuniques
+	Corrupted True
+	Rarity Unique
+	Class == "Amulets" "Rings" "Belts" "Charms" "Body Armours" "Boots" "Gloves" "Helmets" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails" "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps" "Quivers" "Shields" "Foci" "Life Flasks" "Mana Flasks" "Jewels"
+	SetFontSize 45
+	SetTextColor 175 96 37 255
+	SetBorderColor 255 0 0 239
+	SetBackgroundColor 53 13 13 255
+	PlayEffect Red
+	MinimapIcon 2 Red Star
 	
 #------------------------------------
-#   [4206] Tier 3 uniques 
+#   [4206] B and C Grade (Tier 3) uniques 
 #------------------------------------
 
-# Show # %H5 $type->uniques $tier->t3boss
-	# Rarity Unique
-	# BaseType == ""
-	# SetFontSize 45
-	# SetTextColor 175 96 37 255
-	# SetBorderColor 175 96 37 255
-	# SetBackgroundColor 53 13 13 255
-	# PlayEffect Blue
-	# MinimapIcon 2 Blue Star
-	
+# An expensive unique version of this item drops ONLY from bosses! The global drop unique is low value! You can hide this tier, BUT remember to check the hidden items dropped by bosses if you're doing bosses!
+Show # %H5 $type->uniques $tier->t3boss
+	Rarity Unique
+	BaseType == "Silk Robe" "Omen Crest Shield" "Chain Tiara" "Linen Wraps" "Shrine Sceptre" "Explorer Armour"
+	SetFontSize 45
+	SetTextColor 175 96 37 255
+	SetBorderColor 175 96 37 255
+	SetBackgroundColor 53 13 13 255
+
+# B Grade: Mid value uniques, ~2ex to ~9ex with average rolls
 Show # %H4 $type->uniques $tier->t3
 	Rarity Unique
-	BaseType == "Blazon Crest Shield" "Hermit Garb" "Hardwood Targe" "Pathfinder Coat" "Veiled Mask" "Gold Circlet" "Layered Gauntlets" "Stone Greaves" "Feathered Robe" "Wrapped Greathelm" "Fur Plate" "Goldcast Cuffs" "Rusted Cuirass" "Laced Boots" "Rhoahide Coat" "Leather Vest" "Horned Crown" "Lizardscale Boots" "Engraved Focus" "Chain Mail" "Heavy Crown" "Warrior Greathelm" "Iron Greaves" "Gilded Vestments" "Jingling Crest Shield" "Cultist Crown" "Iron Crown" "Twig Circlet" "Braced Sabatons" "Doubled Gauntlets" "Twig Focus" "Elite Greathelm" "Intricate Gloves" "Splintered Tower Shield" "Stitched Gloves" "Braced Tower Shield" "Scale Mail" "Studded Vest" "Iron Cuirass" "Hunter Hood" "Pilgrim Vestments" "Guarded Helm" "Soldier Greathelm" "Crescent Targe" "Quilted Vest" "Embossed Boots" "Tattered Robe" "Waxed Jacket" "Rope Cuffs" "Vaal Cuirass" "Brimmed Helm" "Firm Bracers" "Rusted Greathelm" "Shaman Mantle" "Mail Vestments" "Sectioned Bracers" "Shabby Hood" "Vagabond Armour" "Visored Helm" "Ringmail Gauntlets" "Full Plate" "Hooded Mask" "Rough Greaves" "Tempered Mitts" "Straw Sandals" "Rampart Tower Shield" "Face Mask" "Feathered Tiara" "Pelage Targe" "Bone Raiment" "Suede Bracers" "Sigil Crest Shield" "Stacked Sabatons" "Torn Gloves" "Cloaked Mail" "Gauze Wraps" "Hunting Shoes" "Keth Raiment" "Serpentscale Coat" "Anchorite Garb" "Emblem Crest Shield" "Tonal Focus" "Aged Cuffs" "Marabout Garb" "Spined Bracers" "Votive Raiment" "Rogue Armour" "Hexer's Robe" "Champion Cuirass" "Wayfarer Jacket" "Wicker Tiara" "Crystal Focus" "Hewn Mask" "Raider Plate" "Bronze Greaves" "Mail Sabatons" "Scout's Vest" "Cowled Helm" "Solid Mask" "Shielded Helm" "Effigial Tower Shield" "Woven Focus" "Spired Greathelm" "Steeltoe Boots" "Maraketh Cuirass" "Trimmed Greaves" "Riveted Mitts" "Martyr Crown" "Beaded Circlet" "Secured Leggings" "Steel Plate" "Wrapped Sandals" "Feathered Sandals" "Painted Tower Shield" "Iron Ring" "Mail Belt" "Plate Belt" "Linen Belt" "Rawhide Belt" "Lunar Amulet" "Fine Belt" "Long Belt" "Bloodstone Amulet" "Broadhead Quiver" "Fire Quiver" "Studded Greatclub" "Wooden Club" "Leaden Greathammer" "Dualstring Bow" "Ashen Staff" "Voltaic Staff" "Volatile Wand" "Omen Sceptre" "Slim Mace" "Felled Greatclub" "Oak Greathammer" "Attuned Wand" "Crescent Quarterstaff" "Makeshift Crossbow" "Steelpoint Quarterstaff" "Long Quarterstaff" "Crumbling Maul" "Shortbow" "Tense Crossbow" "Bone Wand" "Plated Mace" "Recurve Bow" "Gelid Staff" "Wrapped Quarterstaff" "Rattling Sceptre" "Pyrophyte Staff" "Gothic Quarterstaff" "Spiked Club" "Forge Maul" "Crude Bow" "Smithing Hammer" "Tapestry Relic" "Vase Relic" "Coffer Relic" "Sombre Gloves" "Amphora Relic" "Seal Relic" "Visceral Quiver" "Spiritbone Crown" "Torment Club" "Silk Slippers" "Covert Hood"
+	BaseType == "Moulded Mitts" "Lattice Sandals" "Closed Helm" "Knight Armour" "Grand Manchettes" "Threaded Shoes" "Grand Visage" "Iron Ring" "Long Quarterstaff" "Spined Bracers" "Spired Greathelm" "Bloodstone Amulet" "Grand Cuisses" "Tattered Robe" "Chiming Staff" "Rope Cuffs" "Lace Hood" "Solid Mask" "Torment Club" "Garment" "Sigil Crest Shield" "Jewelled Gloves"
 	SetFontSize 45
 	SetTextColor 175 96 37 255
 	SetBorderColor 175 96 37 255
 	SetBackgroundColor 53 13 13 255
 	PlayEffect Brown
 	MinimapIcon 2 Brown Star
+	PlayAlertSound 3 300
 
+# C Grade: Low value uniques, 1ex or less, but worth more with good rolls
+Show # %H4 $type->uniques $tier->t4
+	Rarity Unique
+	BaseType == "Feathered Robe" "Pelage Targe" "Layered Gauntlets" "Velour Shoes" "Crude Bow" "Iron Crown" "Vaal Cuirass" "Lunar Amulet" "Gold Circlet" "Covert Hood" "Gauze Wraps" "Shortbow" "Pilgrim Vestments" "Goldcast Cuffs"
+	SetFontSize 35
+	SetTextColor 175 96 37 255
+	SetBorderColor 175 96 37 255
+	SetBackgroundColor 53 13 13 255
 
 #------------------------------------
-#   [4207] Tier 4 uniques
+#   [4207] D Grade (Tier 4) uniques
 #------------------------------------
 
-# Show # %H3 $type->uniques $tier->hideable2
-	# Rarity Unique
-	# BaseType == ""
-	# SetFontSize 40
-	# SetTextColor 175 96 37 255
-	# SetBorderColor 175 96 37 255
-	# SetBackgroundColor 20 20 0 255
-	# PlayEffect Brown
-	# MinimapIcon 2 Brown Star
+# D Grade High: Worthless uniques, but high drop rarity tier, can be slightly risky to hide in the scenario where they become meta suddenly
+Hide # %H3 $type->uniques $tier->hideable2
+	Rarity Unique
+	BaseType == "Seal Relic" "Spiritbone Crown" "Serpentscale Coat" "Tonal Focus" "Coffer Relic" "Effigial Tower Shield" "Martyr Crown" "Long Belt" "Raider Plate" "Secured Leggings" "Crumbling Maul" "Emblem Crest Shield" "Fine Belt" "Marabout Garb" "Champion Cuirass" "Trimmed Greaves" "Hunting Shoes" "Plated Mace" "Riveted Mitts" "Visored Helm" "Rampart Tower Shield" "Votive Raiment" "Ironclad Vestments" "Feathered Sandals" "Pathfinder Coat" "Oak Greathammer" "Fur Plate" "Gilded Vestments" "Amphora Relic" "Scale Mail" "Face Mask" "Tapestry Relic" "Studded Greatclub" "Sombre Gloves" "Doubled Gauntlets" "Pyrophyte Staff" "Braced Sabatons" "Crescent Quarterstaff" "Gelid Staff" "Visceral Quiver" "Wrapped Sandals" "Painted Tower Shield" "Cowled Helm" "Rawhide Belt" "Wide Belt" "Lapis Amulet" "Ruby Ring"
+	SetFontSize 35
+	SetTextColor 175 96 37 255
+	SetBorderColor 175 96 37 255
+	SetBackgroundColor 20 20 0 255
+
+# D Grade Low: Worthless uniques, low drop rarity tier, very safe to hide
+Hide # %H3 $type->uniques $tier->hideable
+	Rarity Unique
+	BaseType == "Broadhead Quiver" "Keth Raiment" "Anchorite Garb" "Wayfarer Jacket" "Wicker Tiara" "Hewn Mask" "Scout's Vest" "Steel Plate" "Aged Cuffs" "Hexer's Robe" "Crystal Focus" "Shielded Helm" "Mail Belt" "Plate Belt" "Linen Belt" "Tense Crossbow" "Rogue Armour" "Mail Sabatons" "Steeltoe Boots" "Maraketh Cuirass" "Forge Maul" "Beaded Circlet" "Smithing Hammer" "Woven Focus" "Blazon Crest Shield" "Hermit Garb" "Hardwood Targe" "Veiled Mask" "Horned Crown" "Warrior Greathelm" "Iron Greaves" "Cultist Crown" "Hunter Hood" "Quilted Vest" "Shaman Mantle" "Hooded Mask" "Wrapped Quarterstaff" "Silk Slippers" "Vagabond Armour" "Recurve Bow" "Bronze Greaves" "Gothic Quarterstaff" "Rusted Cuirass" "Laced Boots" "Jingling Crest Shield" "Elite Greathelm" "Splintered Tower Shield" "Studded Vest" "Guarded Helm" "Soldier Greathelm" "Crescent Targe" "Mail Vestments" "Full Plate" "Suede Bracers" "Rhoahide Coat" "Leather Vest" "Engraved Focus" "Chain Mail" "Twig Circlet" "Braced Tower Shield" "Iron Cuirass" "Slim Mace" "Embossed Boots" "Waxed Jacket" "Shabby Hood" "Ringmail Gauntlets" "Stacked Sabatons" "Torn Gloves" "Bone Wand" "Rough Greaves" "Stone Greaves" "Wrapped Greathelm" "Wooden Club" "Leaden Greathammer" "Twig Focus" "Intricate Gloves" "Sectioned Bracers" "Straw Sandals" "Steelpoint Quarterstaff" "Bone Raiment" "Cloaked Mail" "Fire Quiver" "Lizardscale Boots" "Stitched Gloves" "Ashen Staff" "Voltaic Staff" "Volatile Wand" "Omen Sceptre" "Firm Bracers" "Felled Greatclub" "Attuned Wand" "Tempered Mitts" "Makeshift Crossbow" "Rattling Sceptre" "Rusted Greathelm"
+	SetFontSize 35
+	SetTextColor 175 96 37 255
+	SetBorderColor 175 96 37 255
+	SetBackgroundColor 20 20 0 255
 	
 Show # $type->uniques $tier->restex
 	Rarity Unique
@@ -2571,7 +2645,7 @@ Show # $type->miscmapitems $tier->restex
 #------------------------------------
 
 Hide # $type->hidelayer $tier->final
-	Class "Amulets" "Rings" "Belts" "Charms" "Body Armours" "Boots" "Gloves" "Helmets" "Bows" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails" "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps" "Quivers" "Shields" "Foci" "Flask" "Jewel"
+	Class == "Amulets" "Rings" "Belts" "Charms" "Body Armours" "Boots" "Gloves" "Helmets" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails" "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps" "Quivers" "Shields" "Foci" "Life Flasks" "Mana Flasks" "Jewels"
 	SetFontSize 18
 	SetBorderColor 0 0 0 0
 	SetBackgroundColor 20 20 0 0
