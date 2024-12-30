@@ -1766,9 +1766,9 @@ Show #  $type->currency->stacked $tier->t5
 	StackSize >= 2
 	Class == "Stackable Currency"
 	BaseType == "Scroll of Wisdom" "Transmutation Shard"
-	SetFontSize 36
+	SetFontSize 35
 	SetTextColor 0 0 0 255
-	SetBorderColor 0 0 0 255
+	SetBorderColor 100 50 30 220
 
 #===============================================================================================================
 # [[3600]] Currency - Regular Currency Tiering
