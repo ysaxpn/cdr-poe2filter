@@ -1048,7 +1048,7 @@ Show # $type->currency->soulcore $tier->t2
 
 Show # $type->currency->soulcore $tier->t3
 	Class == "Socketable"
-	BaseType == "Soul Core of Tacati" "Soul Core of Jiquani"  "Soul Core of Citaqualotl" "Soul Core of Azcapa"
+	BaseType == "Soul Core of Topotante" "Soul Core of Tacati" "Soul Core of Opiloti" "Soul Core of Jiquani"  "Soul Core of Citaqualotl" "Soul Core of Puhuarte" "Soul Core of Tzamoto" "Soul Core of Xopec" "Soul Core of Quipolatl" "Soul Core of Ticaba"
 	SetFontSize 45
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
@@ -1059,7 +1059,7 @@ Show # $type->currency->soulcore $tier->t3
 
 Show # %H5 $type->currency->soulcore $tier->t4
 	Class == "Socketable"
-	BaseType == "Soul Core of Topotante" "Soul Core of Opiloti" "Soul Core of Puhuarte" "Soul Core of Tzamoto" "Soul Core of Xopec" "Soul Core of Quipolatl" "Soul Core of Ticaba" "Soul Core of Atmohua" "Soul Core of Cholotl" "Soul Core of Zantipi"
+	BaseType == "Soul Core of Atmohua" "Soul Core of Cholotl" "Soul Core of Zantipi"
 	SetFontSize 45
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
