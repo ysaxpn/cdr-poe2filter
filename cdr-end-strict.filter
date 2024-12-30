@@ -2570,6 +2570,7 @@ Hide # %H3 $type->uniques $tier->hideable2
 	SetTextColor 175 96 37 255
 	SetBorderColor 175 96 37 255
 	SetBackgroundColor 20 20 0 255
+	DisableDropSound True
 
 # D Grade Low: Worthless uniques, low drop rarity tier, very safe to hide
 Hide # %H3 $type->uniques $tier->hideable
@@ -2579,6 +2580,7 @@ Hide # %H3 $type->uniques $tier->hideable
 	SetTextColor 175 96 37 255
 	SetBorderColor 175 96 37 255
 	SetBackgroundColor 20 20 0 255
+	DisableDropSound True
 	
 Show # $type->uniques $tier->restex
 	Rarity Unique
