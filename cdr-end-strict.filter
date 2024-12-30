@@ -1352,19 +1352,19 @@ Show # $type->waystones $tier->waystones_a_t14
 	PlayAlertSound 4 300
 	MinimapIcon 2 Red Square
 
-Show # %H5 $type->waystones $tier->waystones_b_t13
-	WaystoneTier 13
-	Class == "Waystones"
-	SetFontSize 35
-	SetTextColor 0 0 0 255
-	SetBackgroundColor 200 200 200 255
+# Show # %H5 $type->waystones $tier->waystones_b_t13
+# 	WaystoneTier 13
+# 	Class == "Waystones"
+# 	SetFontSize 35
+# 	SetTextColor 0 0 0 255
+# 	SetBackgroundColor 200 200 200 255
 
-Show # %H5 $type->waystones $tier->waystones_b_t12
-	WaystoneTier 12
-	Class == "Waystones"
-	SetFontSize 35
-	SetTextColor 0 0 0 255
-	SetBackgroundColor 200 200 200 255
+# Show # %H5 $type->waystones $tier->waystones_b_t12
+# 	WaystoneTier 12
+# 	Class == "Waystones"
+# 	SetFontSize 35
+# 	SetTextColor 0 0 0 255
+# 	SetBackgroundColor 200 200 200 255
 
 # Show # %H5 $type->waystones $tier->waystones_b_t11
 # 	WaystoneTier 11
@@ -1477,7 +1477,7 @@ Show # %H5 $type->waystones $tier->waystones_b_t12
 # 	MinimapIcon 2 White Square
 
 Hide # $type->waystones $tier->lowtier
-	WaystoneTier <= 11
+	WaystoneTier <= 13
 	Class == "Waystones"
 	SetFontSize 40
 	SetTextColor 255 255 255 255

@@ -336,7 +336,7 @@ Show # T3
 	Corrupted False
 	ItemLevel >= 82
 	Rarity Normal Magic
-	BaseType == "Talon Claw" "Bloodletting Dagger" "Mail Breaker" "Kris Knife" "Cinquedea" "Runic Shortsword" "Messer" "Commander Sword" "Dark Blade" "Sacrificial Axe" "Boarding Hatchet" "Fury Cleaver" "Dread Hatchet" "Expert Slim Mace" "Expert Smithing Hammer" "Expert Warpick" "Helix Spear" "Striking Spear" "Icicle Flail" "Great Flail" "Abyssal Flail"
+	BaseType == "Expert Slim Mace" "Expert Smithing Hammer" "Expert Warpick"
 	SetBorderColor 255 125 0 160
 
 Show #T1 2H Weapons
@@ -355,7 +355,7 @@ Show # T2
 	Corrupted False
 	ItemLevel >= 82
 	Rarity Normal Magic
-	BaseType == "Expert Warden Bow" "Expert Bombard Crossbow" "Expert Barrier Quarterstaff" "Expert Gothic Quarterstaff"
+	BaseType == "Expert Warden Bow" "Expert Bombard Crossbow" "Expert Barrier Quarterstaff" "Expert Gothic Quarterstaff" "Expert Leaden Greathammer"
 	SetBorderColor 255 125 0 160
 
 Show # T3
@@ -363,7 +363,7 @@ Show # T3
 	Corrupted False
 	ItemLevel >= 82
 	Rarity Normal Magic
-	BaseType == "Expert Shortbow" "Expert Cultist Bow" "Regalia Longsword" "Ultra Greatsword" "Vile Greataxe" "Expert Temple Maul" "Expert Oak Greathammer" "Expert Cultist Greathammer" "Expert Crumbling Maul" "Expert Leaden Greathammer" "Expert Crescent Quarterstaff" "Expert Long Quarterstaff" "Expert Crackling Quarterstaff" "Expert Dyad Crossbow"
+	BaseType == "Expert Oak Greathammer" "Expert Crumbling Maul" "Expert Crescent Quarterstaff" "Expert Dyad Crossbow"
 	SetBorderColor 255 125 0 160
 
 Show #T1 Wands/Staves
@@ -444,7 +444,7 @@ Show # T3
 	Corrupted False
 	ItemLevel >= 82
 	Rarity Normal Magic
-	BaseType == "Broadhead Quiver" "Fire Quiver" "Sacral Quiver" "Blunt Quiver" "Toxic Quiver" "Serrated Quiver"
+	BaseType == "Broadhead Quiver" "Fire Quiver" "Toxic Quiver" "Serrated Quiver"
 	SetBorderColor 255 125 0 160
 
 #------------------------------------
@@ -1504,7 +1504,7 @@ Show # %H4 $type->waystones $tier->waystones_d_t1
 	MinimapIcon 2 White Square
 
 Hide # $type->waystones $tier->lowtier
-	WaystoneTier <= 12
+	WaystoneTier <= 11
 	Class == "Waystones"
 	SetFontSize 40
 	SetTextColor 255 255 255 255
