@@ -194,7 +194,7 @@ Show # raredecoratorgear
 	Corrupted False
 	ItemLevel >= 65
 	Rarity Rare
-	Class == "Body Armours" "Boots" "Gloves" "Helmets" "Bows" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails"  "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps" "Quivers" "Shields" "Foci"
+	Class == "Body Armours" "Boots" "Gloves" "Helmets" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails" "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps" "Quivers" "Shields" "Foci"
 	SetFontSize 45
 	SetBackgroundColor 20 20 0 255
 	Continue
@@ -224,7 +224,7 @@ Show # normaldecorator
 	Corrupted False
 	ItemLevel >= 65
 	Rarity Normal Magic
-	Class == "Body Armours" "Boots" "Gloves" "Helmets" "Bows" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails"  "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps" "Quivers" "Shields" "Foci"
+	Class == "Body Armours" "Boots" "Gloves" "Helmets" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails" "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps" "Quivers" "Shields" "Foci"
 	SetBorderColor 100 100 100 150
 	SetBackgroundColor 20 20 0 180
 	Continue
@@ -477,7 +477,7 @@ Show # raredecoratorremover
 	Corrupted False
 	ItemLevel >= 65
 	Rarity Rare
-	Class == "Amulets" "Rings" "Belts" "Charms" "Body Armours" "Boots" "Gloves" "Helmets" "Bows" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails"  "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps" "Quivers" "Shields" "Foci"
+	Class == "Amulets" "Rings" "Belts" "Charms" "Body Armours" "Boots" "Gloves" "Helmets" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails" "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps" "Quivers" "Shields" "Foci"
 	SetFontSize 32
 	SetTextColor 255 255 119
 	SetBorderColor 0 0 0 255
@@ -489,7 +489,7 @@ Show # magicdecoratorremover
 	Corrupted False
 	ItemLevel >= 65
 	Rarity Magic
-	Class == "Amulets" "Rings" "Belts" "Charms" "Body Armours" "Boots" "Gloves" "Helmets" "Bows" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails"  "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps" "Quivers" "Shields" "Foci"
+	Class == "Amulets" "Rings" "Belts" "Charms" "Body Armours" "Boots" "Gloves" "Helmets" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails" "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps" "Quivers" "Shields" "Foci"
 	SetFontSize 32
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 20 20 0 240
@@ -500,7 +500,7 @@ Show # normaldecoratorremover
 	Corrupted False
 	ItemLevel >= 65
 	Rarity Normal
-	Class == "Amulets" "Rings" "Belts" "Charms" "Body Armours" "Boots" "Gloves" "Helmets" "Bows" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails"  "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps" "Quivers" "Shields" "Foci"
+	Class == "Amulets" "Rings" "Belts" "Charms" "Body Armours" "Boots" "Gloves" "Helmets" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails" "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps" "Quivers" "Shields" "Foci"
 	SetFontSize 32
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 20 20 0 240
@@ -639,7 +639,7 @@ Show # High Quality
 
 Hide
 	Rarity Normal Magic
-	Class == "Amulets" "Rings" "Belts" "Charms" "Body Armours" "Boots" "Gloves" "Helmets" "Bows" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails"  "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps" "Quivers" "Shields" "Foci"
+	Class == "Amulets" "Rings" "Belts" "Charms" "Body Armours" "Boots" "Gloves" "Helmets" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails" "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps" "Quivers" "Shields" "Foci"
 	AreaLevel >= 65
 	SetFontSize 18
 	SetBorderColor 0 0 0 0
@@ -656,7 +656,7 @@ Show # largerares
 	Height >= 3
 	ItemLevel >= 65
 	Rarity Rare
-	Class == "Amulets" "Rings" "Belts" "Charms" "Body Armours" "Boots" "Gloves" "Helmets" "Bows" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails"  "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps" "Quivers" "Shields" "Foci"
+	Class == "Amulets" "Rings" "Belts" "Charms" "Body Armours" "Boots" "Gloves" "Helmets" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails" "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps" "Quivers" "Shields" "Foci"
 	SetBorderColor 0 0 0 255
 	Continue
 
@@ -665,7 +665,7 @@ Show # mediumrares1
 	Height >= 3
 	ItemLevel >= 65
 	Rarity Rare
-	Class == "Amulets" "Rings" "Belts" "Charms" "Body Armours" "Boots" "Gloves" "Helmets" "Bows" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails"  "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps" "Quivers" "Shields" "Foci"
+	Class == "Amulets" "Rings" "Belts" "Charms" "Body Armours" "Boots" "Gloves" "Helmets" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails" "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps" "Quivers" "Shields" "Foci"
 	SetBorderColor 180 180 180 255
 	Continue
 
@@ -674,7 +674,7 @@ Show # mediumrares2
 	Height 2
 	ItemLevel >= 65
 	Rarity Rare
-	Class == "Amulets" "Rings" "Belts" "Charms" "Body Armours" "Boots" "Gloves" "Helmets" "Bows" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails"  "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps" "Quivers" "Shields" "Foci"
+	Class == "Amulets" "Rings" "Belts" "Charms" "Body Armours" "Boots" "Gloves" "Helmets" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails" "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps" "Quivers" "Shields" "Foci"
 	SetBorderColor 180 180 180 255
 	Continue
 
@@ -683,34 +683,34 @@ Show # tinyrares
 	Height 1
 	ItemLevel >= 65
 	Rarity Rare
-	Class == "Amulets" "Rings" "Belts" "Charms" "Body Armours" "Boots" "Gloves" "Helmets" "Bows" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails"  "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps" "Quivers" "Shields" "Foci"
+	Class == "Amulets" "Rings" "Belts" "Charms" "Body Armours" "Boots" "Gloves" "Helmets" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails" "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps" "Quivers" "Shields" "Foci"
 	SetBorderColor 50 200 50 255
 	Continue
 
 Show # ilvl65
 	ItemLevel >= 65
 	Rarity Rare
-	Class == "Amulets" "Rings" "Belts" "Charms" "Body Armours" "Boots" "Gloves" "Helmets" "Bows" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails"  "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps" "Quivers" "Shields" "Foci"
+	Class == "Amulets" "Rings" "Belts" "Charms" "Body Armours" "Boots" "Gloves" "Helmets" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails" "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps" "Quivers" "Shields" "Foci"
 	Continue
 
 Show # ilvl72
 	ItemLevel >= 72
 	Rarity Rare
-	Class == "Amulets" "Rings" "Belts" "Charms" "Body Armours" "Boots" "Gloves" "Helmets" "Bows" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails"  "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps" "Quivers" "Shields" "Foci"
+	Class == "Amulets" "Rings" "Belts" "Charms" "Body Armours" "Boots" "Gloves" "Helmets" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails" "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps" "Quivers" "Shields" "Foci"
 	SetTextColor 245 190 0 255
 	Continue
 
 Show # ilvl80
 	ItemLevel >= 80
 	Rarity Rare
-	Class == "Amulets" "Rings" "Belts" "Charms" "Body Armours" "Boots" "Gloves" "Helmets" "Bows" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails"  "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps" "Quivers" "Shields" "Foci"
+	Class == "Amulets" "Rings" "Belts" "Charms" "Body Armours" "Boots" "Gloves" "Helmets" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails" "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps" "Quivers" "Shields" "Foci"
 	SetTextColor 250 165 0 255
 	Continue
 
 Show # ilvl82
 	ItemLevel >= 82
 	Rarity Rare
-	Class == "Amulets" "Rings" "Belts" "Charms" "Body Armours" "Boots" "Gloves" "Helmets" "Bows" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails"  "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps" "Quivers" "Shields" "Foci"
+	Class == "Amulets" "Rings" "Belts" "Charms" "Body Armours" "Boots" "Gloves" "Helmets" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails" "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps" "Quivers" "Shields" "Foci"
 	SetTextColor 255 140 0 255
 	Continue
 
@@ -719,7 +719,7 @@ Show # $tier->corruptedrares
 	AnyEnchantment False
 	ItemLevel >= 65
 	Rarity Rare
-	Class == "Amulets" "Rings" "Belts" "Charms" "Body Armours" "Boots" "Gloves" "Helmets" "Bows" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails"  "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps" "Quivers" "Shields" "Foci"
+	Class == "Amulets" "Rings" "Belts" "Charms" "Body Armours" "Boots" "Gloves" "Helmets" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails" "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps" "Quivers" "Shields" "Foci"
 	SetBorderColor 120 0 0 240
 	Continue
 
@@ -728,7 +728,7 @@ Show # corruptedraresimplicit
 	AnyEnchantment True
 	ItemLevel >= 65
 	Rarity Rare
-	Class == "Amulets" "Rings" "Belts" "Charms" "Body Armours" "Boots" "Gloves" "Helmets" "Bows" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails"  "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps" "Quivers" "Shields" "Foci"
+	Class == "Amulets" "Rings" "Belts" "Charms" "Body Armours" "Boots" "Gloves" "Helmets" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails" "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps" "Quivers" "Shields" "Foci"
 	SetBorderColor 250 0 0 255
 	Continue
 
@@ -825,7 +825,7 @@ Show # t1
 	# Identified True
 	# ItemLevel >= 65
 	# Rarity Rare
-	# Class == "Body Armours" "Boots" "Gloves" "Helmets" "Bows" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails"  "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps" "Quivers" "Shields" "Foci"
+	# Class == "Body Armours" "Boots" "Gloves" "Helmets" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails" "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps" "Quivers" "Shields" "Foci"
 	# SetFontSize 40
 	# SetBorderColor 0 240 190 180
 	# PlayEffect Blue Temp
@@ -833,7 +833,7 @@ Show # t1
 # Show # remaining t2-t3-t4
 	# ItemLevel >= 65
 	# Rarity Rare
-	# Class == "Body Armours" "Boots" "Gloves" "Helmets" "Bows" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails"  "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps" "Quivers" "Shields" "Foci"
+	# Class == "Body Armours" "Boots" "Gloves" "Helmets" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails" "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps" "Quivers" "Shields" "Foci"
 	# SetFontSize 35
 	# SetBackgroundColor 80 80 80 100
 	
@@ -844,7 +844,7 @@ Show # t1
 Hide # raresendgame
 	ItemLevel >= 65
 	Rarity Rare
-	Class == "Amulets" "Rings" "Belts" "Charms" "Body Armours" "Boots" "Gloves" "Helmets" "Bows" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails"  "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps" "Quivers" "Shields" "Foci"
+	Class == "Amulets" "Rings" "Belts" "Charms" "Body Armours" "Boots" "Gloves" "Helmets" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails" "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows" "Traps" "Quivers" "Shields" "Foci"
 	SetFontSize 18
 	SetBorderColor 0 0 0 0
 	SetBackgroundColor 20 20 0 0
