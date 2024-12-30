@@ -1241,6 +1241,7 @@ Show # %D4 $type->Waystones $tier->deco_waystoneup_t11
 	Class == "Waystones"
 	AreaLevel < 75
 	SetBorderColor 220 50 0 255
+	Continue
 
 Show # %D3 $type->Waystones $tier->deco_waystoneup_t10
 	WaystoneTier >= 10
