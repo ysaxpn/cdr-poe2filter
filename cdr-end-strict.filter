@@ -1214,7 +1214,7 @@ Show # $type->Waystones $tier->deco_waystoneup_t15
 	Class == "Waystones"
 	AreaLevel < 79
 	SetBorderColor 220 50 0 255
-	PlayAlertSound 5 300
+	PlayAlertSound 4 300
 	Continue
 
 Show # $type->Waystones $tier->deco_waystoneup_t14
@@ -1222,7 +1222,7 @@ Show # $type->Waystones $tier->deco_waystoneup_t14
 	Class == "Waystones"
 	AreaLevel < 78
 	SetBorderColor 220 50 0 255
-	PlayAlertSound 5 300
+	PlayAlertSound 4 300
 	Continue
 
 Show # %D4 $type->Waystones $tier->deco_waystoneup_t13
@@ -1230,7 +1230,6 @@ Show # %D4 $type->Waystones $tier->deco_waystoneup_t13
 	Class == "Waystones"
 	AreaLevel < 77
 	SetBorderColor 220 50 0 255
-	PlayAlertSound 5 300
 	Continue
 
 Show # %D4 $type->Waystones $tier->deco_waystoneup_t12
@@ -1238,7 +1237,6 @@ Show # %D4 $type->Waystones $tier->deco_waystoneup_t12
 	Class == "Waystones"
 	AreaLevel < 76
 	SetBorderColor 220 50 0 255
-	PlayAlertSound 5 300
 	Continue
 
 Show # %D4 $type->Waystones $tier->deco_waystoneup_t11
@@ -1246,15 +1244,12 @@ Show # %D4 $type->Waystones $tier->deco_waystoneup_t11
 	Class == "Waystones"
 	AreaLevel < 75
 	SetBorderColor 220 50 0 255
-	PlayAlertSound 5 300
-	Continue
 
 Show # %D3 $type->Waystones $tier->deco_waystoneup_t10
 	WaystoneTier >= 10
 	Class == "Waystones"
 	AreaLevel < 74
 	SetBorderColor 220 50 0 255
-	PlayAlertSound 5 300
 	Continue
 
 Show # %D3 $type->Waystones $tier->deco_waystoneup_t9
@@ -1262,7 +1257,6 @@ Show # %D3 $type->Waystones $tier->deco_waystoneup_t9
 	Class == "Waystones"
 	AreaLevel < 73
 	SetBorderColor 220 50 0 255
-	PlayAlertSound 5 300
 	Continue
 
 Show # %D3 $type->Waystones $tier->deco_waystoneup_t8
@@ -1270,7 +1264,6 @@ Show # %D3 $type->Waystones $tier->deco_waystoneup_t8
 	Class == "Waystones"
 	AreaLevel < 72
 	SetBorderColor 220 50 0 255
-	PlayAlertSound 5 300
 	Continue
 
 Show # %D3 $type->Waystones $tier->deco_waystoneup_t7
@@ -1278,7 +1271,6 @@ Show # %D3 $type->Waystones $tier->deco_waystoneup_t7
 	Class == "Waystones"
 	AreaLevel < 71
 	SetBorderColor 220 50 0 255
-	PlayAlertSound 5 300
 	Continue
 
 Show # %D3 $type->Waystones $tier->deco_waystoneup_t6
@@ -1286,7 +1278,6 @@ Show # %D3 $type->Waystones $tier->deco_waystoneup_t6
 	Class == "Waystones"
 	AreaLevel < 70
 	SetBorderColor 220 50 0 255
-	PlayAlertSound 5 300
 	Continue
 
 Show # %D3 $type->Waystones $tier->deco_waystoneup_t5
@@ -1294,7 +1285,6 @@ Show # %D3 $type->Waystones $tier->deco_waystoneup_t5
 	Class == "Waystones"
 	AreaLevel < 69
 	SetBorderColor 220 50 0 255
-	PlayAlertSound 5 300
 	Continue
 
 Show # %D3 $type->Waystones $tier->deco_waystoneup_t4
@@ -1302,7 +1292,6 @@ Show # %D3 $type->Waystones $tier->deco_waystoneup_t4
 	Class == "Waystones"
 	AreaLevel < 68
 	SetBorderColor 220 50 0 255
-	PlayAlertSound 5 300
 	Continue
 
 Show # %D3 $type->Waystones $tier->deco_waystoneup_t3
@@ -1310,7 +1299,6 @@ Show # %D3 $type->Waystones $tier->deco_waystoneup_t3
 	Class == "Waystones"
 	AreaLevel < 67
 	SetBorderColor 220 50 0 255
-	PlayAlertSound 5 300
 	Continue
 
 Show # %D3 $type->Waystones $tier->deco_waystoneup_t2
@@ -1318,7 +1306,6 @@ Show # %D3 $type->Waystones $tier->deco_waystoneup_t2
 	Class == "Waystones"
 	AreaLevel < 66
 	SetBorderColor 220 50 0 255
-	PlayAlertSound 5 300
 	Continue
 
 Show # %D3 $type->Waystones $tier->deco_waystoneup_t1
@@ -1326,7 +1313,6 @@ Show # %D3 $type->Waystones $tier->deco_waystoneup_t1
 	Class == "Waystones"
 	AreaLevel < 65
 	SetBorderColor 220 50 0 255
-	PlayAlertSound 5 300
 	Continue
 
 Show # $type->Waystones $tier->deco_corruptedmod
@@ -1355,7 +1341,7 @@ Show # $type->waystones $tier->waystones_a_t15
 	SetFontSize 45
 	SetTextColor 0 0 0 255
 	SetBackgroundColor 235 235 235 255
-	PlayAlertSound 5 300
+	PlayAlertSound 4 300
 	PlayEffect Yellow
 	MinimapIcon 1 Red Square
 
@@ -1366,7 +1352,8 @@ Show # $type->waystones $tier->waystones_a_t14
 	SetTextColor 0 0 0 255
 	SetBackgroundColor 235 235 235 255
 	PlayEffect Yellow
-	MinimapIcon 1 Red Square
+	PlayAlertSound 4 300
+	MinimapIcon 2 Red Square
 
 Show # %H5 $type->waystones $tier->waystones_b_t13
 	WaystoneTier 13
