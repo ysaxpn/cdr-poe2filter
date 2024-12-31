@@ -278,7 +278,7 @@ Show #T1 Jewellery
 	Corrupted False
 	ItemLevel >= 82
 	Rarity Normal Magic
-	BaseType == "Bloodstone Amulet" "Solar Amulet" "Lunar Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Stellar Amulet" "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Amethyst Ring" "Prismatic Ring" "Pearl Ring" "Rawhide Belt" "Utility Belt" "Golden Charm" "Stone Charm" "Thawing Charm" "Dousing Charm" "Antidote Charm"
+	BaseType == "Bloodstone Amulet" "Solar Amulet" "Lunar Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Stellar Amulet" "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Amethyst Ring" "Prismatic Ring" "Pearl Ring" "Rawhide Belt" "Utility Belt"
 	SetFontSize 45
 	SetBorderColor 255 125 0 160
 
