@@ -1517,7 +1517,7 @@ Show # expedition logbook
 #   [3301] Exceptions
 #------------------------------------
 
-Show # pinnacle keys, basetypes are bugged
+Show # Pinnacle keys, basetypes are bugged
 	Class == "Pinnacle Keys"
 	#BaseType == "Ancient Crisis Fragment" "Faded Crisis Fragment" "Weathered Crisis Fragment"
 	SetFontSize 45
@@ -1537,11 +1537,12 @@ Show # Trial Coins special
 	SetBackgroundColor 255 255 255 255
 	PlayAlertSound 6 300
 	PlayEffect Red
-	MinimapIcon 0 Red Star
+	MinimapIcon 0 Red Hexagon
 
 Hide # Djinn Barya 4 trials i80
 	Class == "Trial Coins"
 	BaseType == "Djinn Barya"
+	Rarity == Normal
 	ItemLevel >= 80
 	SetFontSize 45
 	SetTextColor 0 0 0 255
@@ -1549,11 +1550,12 @@ Hide # Djinn Barya 4 trials i80
 	SetBackgroundColor 249 150 25 255
 	# PlayAlertSound 2 300
 	# PlayEffect Yellow
-	# MinimapIcon 2 Yellow Circle
+	# MinimapIcon 2 Yellow Hexagon
 
 Hide # Djinn Barya 4 trials (4th ascension)
 	Class == "Trial Coins"
 	BaseType == "Djinn Barya"
+	Rarity == Normal
 	AreaLevel <= 78
 	ItemLevel >= 75
 	SetFontSize 45
@@ -1564,14 +1566,28 @@ Hide # Djinn Barya 4 trials (4th ascension)
 Hide # Djinn Barya any
 	Class == "Trial Coins"
 	BaseType == "Djinn Barya"
+	Rarity == Normal
 	SetFontSize 45
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 210 178 135 255
 
+Show # Trialmaster Inscribed Ultimatiums
+	Class == "Inscribed Ultimatum"
+	BaseType == "Inscribed Ultimatum"
+	Rarity == Magic
+	SetFontSize 45
+	SetTextColor 0 0 0 255
+	SetBorderColor 255 0 0
+	SetBackgroundColor 229 126 88
+	PlayAlertSound 2 300
+	PlayEffect Yellow
+	MinimapIcon 1 Yellow Hexagon
+
 Hide # Inscribed Ultimatum 10 trials i80
 	Class == "Inscribed Ultimatum"
 	BaseType == "Inscribed Ultimatum"
+	Rarity == Normal
 	ItemLevel >= 80
 	SetFontSize 45
 	SetTextColor 0 0 0 255
@@ -1579,11 +1595,12 @@ Hide # Inscribed Ultimatum 10 trials i80
 	SetBackgroundColor 249 150 25 255
 	# PlayAlertSound 2 300
 	# PlayEffect Yellow
-	# MinimapIcon 2 Yellow Circle
+	# MinimapIcon 2 Yellow Hexagon
 
 Hide # Inscribed Ultimatum 10 trials (4th ascension)
 	Class == "Inscribed Ultimatum"
 	BaseType == "Inscribed Ultimatum"
+	Rarity == Normal
 	AreaLevel <= 79
 	ItemLevel >= 75
 	SetFontSize 45
@@ -1594,6 +1611,7 @@ Hide # Inscribed Ultimatum 10 trials (4th ascension)
 Hide # Inscribed Ultimatum any
 	Class == "Inscribed Ultimatum"
 	BaseType == "Inscribed Ultimatum"
+	Rarity == Normal
 	SetFontSize 45
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
