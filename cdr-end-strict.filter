@@ -256,7 +256,7 @@ Show #T1 Charms
 	PlayEffect Red
 	MinimapIcon 0 Red Diamond
 
-# Show # T2
+# Show # T2 Charms
 # 	Mirrored False
 # 	Corrupted False
 # 	ItemLevel >= 83
@@ -265,7 +265,7 @@ Show #T1 Charms
 # 	SetFontSize 40
 # 	SetBorderColor 255 30 0 160
 
-# Show # T3
+# Show # T3 Charms
 # 	Mirrored False
 # 	Corrupted False
 # 	ItemLevel >= 83
@@ -282,107 +282,132 @@ Show #T1 Jewellery
 	SetFontSize 45
 	SetBorderColor 255 125 0 160
 
-# Show # T2
-	# Mirrored False
-	# Corrupted False
-	# ItemLevel >= 82
-	# Rarity Normal Magic
-	# BaseType == "Gold Amulet" "Unset Ring" "Gold Ring" "Linen Belt" "Plate Belt" "Mail Belt" "Heavy Belt" "Amethyst Charm" "Silver Charm" "Grounding Charm"
-	# SetBorderColor 255 125 0 160
-
-# Show # T3
-	# Mirrored False
-	# Corrupted False
-	# ItemLevel >= 82
-	# Rarity Normal Magic
-	# BaseType == "Crimson Amulet" "Azure Amulet" "Iron Ring" "Lazuli Ring" "Emerald Ring" "Wide Belt" "Long Belt" "Ornate Belt" "Double Belt" "Staunching Charm" "Ruby Charm" "Sapphire Charm" "Topaz Charm"
-	# SetBorderColor 255 125 0 160
-
-# Show #T1 Armour
-	# Mirrored False
-	# Corrupted False
-	# ItemLevel >= 82
-	# Rarity Normal Magic
-	# BaseType == "Expert Intricate Gloves" "Expert Spined Bracers" "Expert Moulded Mitts" "Expert Spiral Wraps" "Expert Feathered Sandals" "Expert Lizardscale Boots" "Expert Stone Greaves" "Expert Hunting Shoes" "Expert Hexer's Robe" "Expert Studded Vest" "Expert Waxed Jacket" "Expert Wayfarer Jacket" "Expert Iron Cuirass" "Expert Scalper's Jacket" "Expert Feathered Tiara" "Expert Hunter Hood" "Expert Elite Greathelm" "Expert Tribal Mask" "Expert Omen Crest Shield" "Expert Stone Tower Shield" "Expert Crystal Focus" "Expert Plumed Focus"
-	# SetFontSize 40
-	# SetBorderColor 255 125 0 160
-	# PlayEffect Blue
-	# MinimapIcon 0 Blue Diamond
-
-# Show # T2
-	# Mirrored False
-	# Corrupted False
-	# ItemLevel >= 82
-	# Rarity Normal Magic
-	# BaseType == "Expert Moulded Mitts" "Expert Doubled Gauntlets" "Expert Goldcast Cuffs" "Expert Pelt Leggings" "Expert Stone Greaves" "Expert Stacked Sabatons" "Expert Keth Raiment" "Expert Altar Robe" "Expert Vaal Cuirass" "Expert Serpentscale Coat" "Expert Scale Mail" "Expert Shaman Mantle" "Expert Sacrificial Mantle" "Expert Elite Greathelm" "Expert Shielded Helm" "Expert Heavy Crown" "Expert Stone Tower Shield" "Expert Feathered Targe" "Expert Edged Buckler"
-	# SetBorderColor 255 125 0 160
-
-# Show #T1 1H Weapons
-	# Mirrored False
-	# Corrupted False
-	# ItemLevel >= 82
-	# Rarity Normal Magic
-	# BaseType == "Expert Brigand Mace"
-	# SetFontSize 40
-	# SetBorderColor 255 125 0 160
-	# PlayEffect Blue
-	# MinimapIcon 0 Blue Diamond
-
-# Show # T2
-	# Mirrored False
-	# Corrupted False
-	# ItemLevel >= 82
-	# Rarity Normal Magic
-	# BaseType == "Expert Construct Hammer"
-	# SetBorderColor 255 125 0 160
-
-# Show # T3
-	# Mirrored False
-	# Corrupted False
-	# ItemLevel >= 82
-	# Rarity Normal Magic
-	# BaseType == "Talon Claw" "Bloodletting Dagger" "Mail Breaker" "Kris Knife" "Cinquedea" "Runic Shortsword" "Messer" "Commander Sword" "Dark Blade" "Sacrificial Axe" "Boarding Hatchet" "Fury Cleaver" "Dread Hatchet" "Expert Slim Mace" "Expert Smithing Hammer" "Expert Warpick" "Helix Spear" "Striking Spear" "Icicle Flail" "Great Flail" "Abyssal Flail"
-	# SetBorderColor 255 125 0 160
-
-# Show #T1 2H Weapons
-	# Mirrored False
-	# Corrupted False
-	# ItemLevel >= 82
-	# Rarity Normal Magic
-	# BaseType == "Expert Dualstring Bow" "Expert Forlorn Crossbow" "Expert Slicing Quarterstaff"
-	# SetFontSize 40
-	# SetBorderColor 255 125 0 160
-	# PlayEffect Blue
-	# MinimapIcon 0 Blue Diamond
-
-# Show # T2
-	# Mirrored False
-	# Corrupted False
-	# ItemLevel >= 82
-	# Rarity Normal Magic
-	# BaseType == "Expert Warden Bow"  "Expert Bombard Crossbow" "Expert Barrier Quarterstaff" "Expert Gothic Quarterstaff"
-	# SetBorderColor 255 125 0 160
-
-# Show # T3
-	# Mirrored False
-	# Corrupted False
-	# ItemLevel >= 82
-	# Rarity Normal Magic
-	# BaseType == "Expert Shortbow" "Expert Cultist Bow" "Regalia Longsword" "Ultra Greatsword" "Vile Greataxe" "Expert Temple Maul" "Expert Oak Greathammer" "Expert Cultist Greathammer" "Expert Crumbling Maul" "Expert Leaden Greathammer" "Expert Crescent Quarterstaff" "Expert Long Quarterstaff" "Expert Crackling Quarterstaff" "Expert Dyad Crossbow"
-	# SetBorderColor 255 125 0 160
-
-# Show #T1 Wands/Staves
+# Show # T2 Jewellery
 # 	Mirrored False
 # 	Corrupted False
-# 	ItemLevel >= 81
+# 	ItemLevel >= 82
 # 	Rarity Normal Magic
-# 	BaseType == "Chiming Staff" "Attuned Wand" "Siphoning Wand"
+# 	BaseType == "Gold Amulet" "Unset Ring" "Gold Ring" "Linen Belt" "Plate Belt" "Mail Belt" "Heavy Belt"
+# 	SetBorderColor 255 125 0 160
+
+# Show # T3 Jewellery
+# 	Mirrored False
+# 	Corrupted False
+# 	ItemLevel >= 82
+# 	Rarity Normal Magic
+# 	BaseType == "Crimson Amulet" "Azure Amulet" "Iron Ring" "Lazuli Ring" "Emerald Ring" "Wide Belt" "Long Belt" "Ornate Belt" "Double Belt"
+# 	SetBorderColor 255 125 0 160
+
+# Show #T1 Armour
+# 	Mirrored False
+# 	Corrupted False
+# 	ItemLevel >= 82
+# 	Rarity Normal Magic
+# 	BaseType == "Expert Intricate Gloves" "Expert Spined Bracers" "Expert Moulded Mitts" "Expert Spiral Wraps" "Expert Feathered Sandals" "Expert Lizardscale Boots" "Expert Stone Greaves" "Expert Hunting Shoes" "Expert Hexer's Robe" "Expert Studded Vest" "Expert Waxed Jacket" "Expert Wayfarer Jacket" "Expert Iron Cuirass" "Expert Scalper's Jacket" "Expert Feathered Tiara" "Expert Hunter Hood" "Expert Elite Greathelm" "Expert Tribal Mask" "Expert Omen Crest Shield" "Expert Stone Tower Shield" "Expert Crystal Focus" "Expert Plumed Focus"
 # 	SetFontSize 40
 # 	SetBorderColor 255 125 0 160
 # 	PlayEffect Blue
 # 	MinimapIcon 0 Blue Diamond
 
-# Show # T2
+# Show # T2 Armour
+# 	Mirrored False
+# 	Corrupted False
+# 	ItemLevel >= 82
+# 	Rarity Normal Magic
+# 	BaseType == "Expert Moulded Mitts" "Expert Doubled Gauntlets" "Expert Goldcast Cuffs" "Expert Pelt Leggings" "Expert Stone Greaves" "Expert Stacked Sabatons" "Expert Keth Raiment" "Expert Altar Robe" "Expert Vaal Cuirass" "Expert Serpentscale Coat" "Expert Scale Mail" "Expert Shaman Mantle" "Expert Sacrificial Mantle" "Expert Elite Greathelm" "Expert Shielded Helm" "Expert Heavy Crown" "Expert Stone Tower Shield" "Expert Feathered Targe" "Expert Edged Buckler"
+# 	SetBorderColor 255 125 0 160
+
+# Show #T1 1H Weapons
+# 	Mirrored False
+# 	Corrupted False
+# 	ItemLevel >= 82
+# 	Rarity Normal Magic
+# 	BaseType == "Expert Brigand Mace"
+# 	SetFontSize 40
+# 	SetBorderColor 255 125 0 160
+# 	PlayEffect Blue
+# 	MinimapIcon 0 Blue Diamond
+
+# Show # T2 1H Weapons
+# 	Mirrored False
+# 	Corrupted False
+# 	ItemLevel >= 82
+# 	Rarity Normal Magic
+# 	BaseType == "Expert Construct Hammer"
+# 	SetBorderColor 255 125 0 160
+
+# Show # T3 1H Weapons
+# 	Mirrored False
+# 	Corrupted False
+# 	ItemLevel >= 82
+# 	Rarity Normal Magic
+# 	BaseType == "Talon Claw" "Bloodletting Dagger" "Mail Breaker" "Kris Knife" "Cinquedea" "Runic Shortsword" "Messer" "Commander Sword" "Dark Blade" "Sacrificial Axe" "Boarding Hatchet" "Fury Cleaver" "Dread Hatchet" "Expert Slim Mace" "Expert Smithing Hammer" "Expert Warpick" "Helix Spear" "Striking Spear" "Icicle Flail" "Great Flail" "Abyssal Flail"
+# 	SetBorderColor 255 125 0 160
+
+# Show #T1 2H Weapons
+# 	Mirrored False
+# 	Corrupted False
+# 	ItemLevel >= 82
+# 	Rarity Normal Magic
+# 	BaseType == "Expert Dualstring Bow" "Expert Forlorn Crossbow" "Expert Slicing Quarterstaff"
+# 	SetFontSize 40
+# 	SetBorderColor 255 125 0 160
+# 	PlayEffect Blue
+# 	MinimapIcon 0 Blue Diamond
+
+# Show # T2 2H Weapons
+# 	Mirrored False
+# 	Corrupted False
+# 	ItemLevel >= 82
+# 	Rarity Normal Magic
+# 	BaseType == "Expert Warden Bow"  "Expert Bombard Crossbow" "Expert Barrier Quarterstaff" "Expert Gothic Quarterstaff"
+# 	SetBorderColor 255 125 0 160
+
+# Show # T3 2H Weapons
+# 	Mirrored False
+# 	Corrupted False
+# 	ItemLevel >= 82
+# 	Rarity Normal Magic
+# 	BaseType == "Expert Shortbow" "Expert Cultist Bow" "Regalia Longsword" "Ultra Greatsword" "Vile Greataxe" "Expert Temple Maul" "Expert Oak Greathammer" "Expert Cultist Greathammer" "Expert Crumbling Maul" "Expert Leaden Greathammer" "Expert Crescent Quarterstaff" "Expert Long Quarterstaff" "Expert Crackling Quarterstaff" "Expert Dyad Crossbow"
+# 	SetBorderColor 255 125 0 160
+
+Show #T1 Wands
+	Mirrored False
+	Corrupted False
+	ItemLevel >= 81
+	Rarity Normal
+	BaseType == "Attuned Wand" "Siphoning Wand"
+	SetFontSize 45
+	SetBorderColor 255 125 0 160
+
+# Show # T2 Wands
+# 	Mirrored False
+# 	Corrupted False
+# 	ItemLevel >= 81
+# 	Rarity Normal Magic
+# 	BaseType == "Bone Wand"
+# 	SetBorderColor 255 125 0 160
+
+# Show # T3 Wands
+# 	Mirrored False
+# 	Corrupted False
+# 	ItemLevel >= 81
+# 	Rarity Normal Magic
+# 	BaseType == "Withered Wand" "Volatile Wand"
+# 	SetBorderColor 255 125 0 160
+
+# Show #T1 Staves
+# 	Mirrored False
+# 	Corrupted False
+# 	ItemLevel >= 81
+# 	Rarity Normal Magic
+# 	BaseType == "Chiming Staff"
+# 	SetFontSize 40
+# 	SetBorderColor 255 125 0 160
+# 	PlayEffect Blue
+# 	MinimapIcon 0 Blue Diamond
+
+# Show # T2 Staves
 # 	Mirrored False
 # 	Corrupted False
 # 	ItemLevel >= 81
@@ -390,12 +415,12 @@ Show #T1 Jewellery
 # 	BaseType == "Gelid Staff"
 # 	SetBorderColor 255 125 0 160
 
-# Show # T3
+# Show # T3 Staves
 # 	Mirrored False
 # 	Corrupted False
 # 	ItemLevel >= 81
 # 	Rarity Normal Magic
-# 	BaseType == "Withered Wand" "Bone Wand" "Volatile Wand" "Galvanic Wand" "Acrid Wand" "Offering Wand" "Frigid Wand" "Torture Wand" "Critical Wand" "Primordial Wand" "Dueling Wand" "Ashen Staff" "Voltaic Staff" "Spriggan Staff" "Pyrophyte Staff" "Rending Staff" "Reaping Staff" "Icicle Staff" "Roaring Staff" "Paralysing Staff" "Cleric Staff" "Dark Staff"
+# 	BaseType == "Ashen Staff" "Voltaic Staff" "Pyrophyte Staff"
 # 	SetBorderColor 255 125 0 160
 
 # Show #T1 Sceptres
@@ -409,7 +434,7 @@ Show #T1 Jewellery
 # 	PlayEffect Blue
 # 	MinimapIcon 0 Blue Diamond
 
-# Show # T2
+# Show # T2 Sceptres
 # 	Mirrored False
 # 	Corrupted False
 # 	ItemLevel >= 82
@@ -417,7 +442,7 @@ Show #T1 Jewellery
 # 	BaseType == "Omen Sceptre"
 # 	SetBorderColor 255 125 0 160
 
-# Show # T3
+# Show # T3 Sceptres
 # 	Mirrored False
 # 	Corrupted False
 # 	ItemLevel >= 82
@@ -425,38 +450,38 @@ Show #T1 Jewellery
 # 	BaseType == "Stoic Sceptre" "Lupine Sceptre" "Ochre Sceptre" "Shrine Sceptre" "Devouring Sceptre" "Clasped Sceptre" "Devotional Sceptre" "Wrath Sceptre" "Aromatic Sceptre" "Pious Sceptre" "Hallowed Sceptre"
 # 	SetBorderColor 255 125 0 160
 
-# Show #T1 Offhand
-	# Mirrored False
-	# Corrupted False
-	# ItemLevel >= 82
-	# Rarity Normal Magic
-	# BaseType == "Primed Quiver"
-	# SetFontSize 40
-	# SetBorderColor 255 125 0 160
-	# PlayEffect Blue
-	# MinimapIcon 0 Blue Diamond
+# Show #T1 Quivers
+# 	Mirrored False
+# 	Corrupted False
+# 	ItemLevel >= 82
+# 	Rarity Normal Magic
+# 	BaseType == "Primed Quiver"
+# 	SetFontSize 40
+# 	SetBorderColor 255 125 0 160
+# 	PlayEffect Blue
+# 	MinimapIcon 0 Blue Diamond
 
-# Show # T2
-	# Mirrored False
-	# Corrupted False
-	# ItemLevel >= 82
-	# Rarity Normal Magic
-	# BaseType == "Two-Point Quiver" "Volant Quiver" "Visceral Quiver" "Penetrating Quiver"
-	# SetBorderColor 255 125 0 160
+# Show # T2 Quivers
+# 	Mirrored False
+# 	Corrupted False
+# 	ItemLevel >= 82
+# 	Rarity Normal Magic
+# 	BaseType == "Two-Point Quiver" "Volant Quiver" "Visceral Quiver" "Penetrating Quiver"
+# 	SetBorderColor 255 125 0 160
 
-# Show # T3
-	# Mirrored False
-	# Corrupted False
-	# ItemLevel >= 82
-	# Rarity Normal Magic
-	# BaseType == "Broadhead Quiver" "Fire Quiver" "Sacral Quiver" "Blunt Quiver" "Toxic Quiver" "Serrated Quiver"
-	# SetBorderColor 255 125 0 160
+# Show # T3 Quivers
+# 	Mirrored False
+# 	Corrupted False
+# 	ItemLevel >= 82
+# 	Rarity Normal Magic
+# 	BaseType == "Broadhead Quiver" "Fire Quiver" "Sacral Quiver" "Blunt Quiver" "Toxic Quiver" "Serrated Quiver"
+# 	SetBorderColor 255 125 0 160
 
 #------------------------------------
 #   [1305] ILVL 80
 #------------------------------------
 
-# Show # T1
+# Show # T1 bases i80+
 	# Mirrored False
 	# Corrupted False
 	# ItemLevel >= 80
@@ -469,7 +494,7 @@ Show #T1 Jewellery
 #   [1306] ILVL ANY
 #------------------------------------
 
-# Show # T1
+# Show # T1 bases any ilvl
 	# Mirrored False
 	# Corrupted False
 	# ItemLevel <= 79

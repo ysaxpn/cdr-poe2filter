@@ -259,7 +259,7 @@ Show #T1 Charms
 	PlayEffect Red
 	MinimapIcon 0 Red Diamond
 
-Show # T2
+Show # T2 Charms
 	Mirrored False
 	Corrupted False
 	ItemLevel >= 83
@@ -268,7 +268,7 @@ Show # T2
 	SetFontSize 40
 	SetBorderColor 255 30 0 160
 
-Show # T3
+Show # T3 Charms
 	Mirrored False
 	Corrupted False
 	ItemLevel >= 83
@@ -288,7 +288,7 @@ Show #T1 Jewellery
 	PlayEffect Blue
 	MinimapIcon 0 Blue Diamond
 
-Show # T2
+Show # T2 Jewellery
 	Mirrored False
 	Corrupted False
 	ItemLevel >= 82
@@ -296,7 +296,7 @@ Show # T2
 	BaseType == "Unset Ring" "Linen Belt" "Plate Belt" "Mail Belt" "Heavy Belt" "Amethyst Charm" "Silver Charm" "Grounding Charm"
 	SetBorderColor 255 125 0 160
 
-Show # T3
+Show # T3 Jewellery
 	Mirrored False
 	Corrupted False
 	ItemLevel >= 82
@@ -315,7 +315,7 @@ Show #T1 Armour
 	PlayEffect Blue
 	MinimapIcon 0 Blue Diamond
 
-Show # T2
+Show # T2 Armour
 	Mirrored False
 	Corrupted False
 	ItemLevel >= 82
@@ -334,7 +334,7 @@ Show #T1 1H Weapons
 	PlayEffect Blue
 	MinimapIcon 0 Blue Diamond
 
-Show # T2
+Show # T2 1H Weapons
 	Mirrored False
 	Corrupted False
 	ItemLevel >= 82
@@ -342,7 +342,7 @@ Show # T2
 	BaseType == "Expert Construct Hammer"
 	SetBorderColor 255 125 0 160
 	
-Show # T3
+Show # T3 1H Weapons
 	Mirrored False
 	Corrupted False
 	ItemLevel >= 82
@@ -361,7 +361,7 @@ Show #T1 2H Weapons
 	PlayEffect Blue
 	MinimapIcon 0 Blue Diamond
 
-Show # T2
+Show # T2 2H Weapons
 	Mirrored False
 	Corrupted False
 	ItemLevel >= 82
@@ -369,7 +369,7 @@ Show # T2
 	BaseType == "Expert Warden Bow" "Expert Bombard Crossbow" "Expert Barrier Quarterstaff" "Expert Gothic Quarterstaff" "Expert Leaden Greathammer"
 	SetBorderColor 255 125 0 160
 
-Show # T3
+Show # T3 2H Weapons
 	Mirrored False
 	Corrupted False
 	ItemLevel >= 82
@@ -377,18 +377,45 @@ Show # T3
 	BaseType == "Expert Oak Greathammer" "Expert Crumbling Maul" "Expert Crescent Quarterstaff" "Expert Dyad Crossbow"
 	SetBorderColor 255 125 0 160
 
-Show #T1 Wands/Staves
+Show #T1 Wands
 	Mirrored False
 	Corrupted False
 	ItemLevel >= 81
 	Rarity Normal Magic
-	BaseType == "Chiming Staff" "Attuned Wand" "Siphoning Wand"
+	BaseType == "Attuned Wand" "Siphoning Wand"
 	SetFontSize 40
 	SetBorderColor 255 125 0 160
 	PlayEffect Blue
 	MinimapIcon 0 Blue Diamond
 
-Show # T2
+Show # T2 Wands
+	Mirrored False
+	Corrupted False
+	ItemLevel >= 81
+	Rarity Normal Magic
+	BaseType == "Bone Wand"
+	SetBorderColor 255 125 0 160
+
+Show # T3 Wands
+	Mirrored False
+	Corrupted False
+	ItemLevel >= 81
+	Rarity Normal Magic
+	BaseType == "Withered Wand" "Volatile Wand"
+	SetBorderColor 255 125 0 160
+
+Show #T1 Staves
+	Mirrored False
+	Corrupted False
+	ItemLevel >= 81
+	Rarity Normal Magic
+	BaseType == "Chiming Staff"
+	SetFontSize 40
+	SetBorderColor 255 125 0 160
+	PlayEffect Blue
+	MinimapIcon 0 Blue Diamond
+
+Show # T2 Staves
 	Mirrored False
 	Corrupted False
 	ItemLevel >= 81
@@ -396,12 +423,12 @@ Show # T2
 	BaseType == "Gelid Staff"
 	SetBorderColor 255 125 0 160
 
-Show # T3
+Show # T3 Staves
 	Mirrored False
 	Corrupted False
 	ItemLevel >= 81
 	Rarity Normal Magic
-	BaseType == "Withered Wand" "Bone Wand" "Volatile Wand" "Galvanic Wand" "Acrid Wand" "Offering Wand" "Frigid Wand" "Torture Wand" "Critical Wand" "Primordial Wand" "Dueling Wand" "Ashen Staff" "Voltaic Staff" "Spriggan Staff" "Pyrophyte Staff" "Rending Staff" "Reaping Staff" "Icicle Staff" "Roaring Staff" "Paralysing Staff" "Cleric Staff" "Dark Staff"
+	BaseType == "Ashen Staff" "Voltaic Staff" "Pyrophyte Staff"
 	SetBorderColor 255 125 0 160
 
 Show #T1 Sceptres
@@ -415,7 +442,7 @@ Show #T1 Sceptres
 	PlayEffect Blue
 	MinimapIcon 0 Blue Diamond
 	
-Show # T2
+Show # T2 Sceptres
 	Mirrored False
 	Corrupted False
 	ItemLevel >= 82
@@ -423,15 +450,15 @@ Show # T2
 	BaseType == "Omen Sceptre"
 	SetBorderColor 255 125 0 160
 
-Show # T3
+Show # T3 Sceptres
 	Mirrored False
 	Corrupted False
 	ItemLevel >= 82
 	Rarity Normal Magic
-	BaseType == "Stoic Sceptre" "Lupine Sceptre" "Ochre Sceptre" "Shrine Sceptre" "Devouring Sceptre" "Clasped Sceptre" "Devotional Sceptre" "Wrath Sceptre" "Aromatic Sceptre" "Pious Sceptre" "Hallowed Sceptre"
+	BaseType == "Stoic Sceptre" "Shrine Sceptre"
 	SetBorderColor 255 125 0 160
 
-Show #T1 Offhand
+Show #T1 Quivers
 	Mirrored False
 	Corrupted False
 	ItemLevel >= 82
@@ -442,7 +469,7 @@ Show #T1 Offhand
 	PlayEffect Blue
 	MinimapIcon 0 Blue Diamond
 
-Show # T2
+Show # T2 Quivers
 	Mirrored False
 	Corrupted False
 	ItemLevel >= 82
@@ -450,7 +477,7 @@ Show # T2
 	BaseType == "Two-Point Quiver" "Volant Quiver" "Visceral Quiver" "Penetrating Quiver"
 	SetBorderColor 255 125 0 160
 
-Show # T3
+Show # T3 Quivers
 	Mirrored False
 	Corrupted False
 	ItemLevel >= 82
@@ -462,7 +489,7 @@ Show # T3
 #   [1305] ILVL 80
 #------------------------------------
 
-Show # T1
+Show # T1 bases i80+
 	Mirrored False
 	Corrupted False
 	ItemLevel >= 80
@@ -475,7 +502,7 @@ Show # T1
 #   [1306] ILVL ANY
 #------------------------------------
 
-Show # T1
+Show # T1 bases any ilvl
 	Mirrored False
 	Corrupted False
 	ItemLevel <= 79
