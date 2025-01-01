@@ -1129,12 +1129,23 @@ Show # $type->currency->soulcore $tier->restex
 	MinimapIcon 0 Pink Circle
 
 #------------------------------------
-#   [2810] Runes
+#   [2811] Runes
 #------------------------------------
+
+Show # High tier runes
+	Class == "Socketable"
+	BaseType == "Iron Rune"
+	SetFontSize 45
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 213 159 0 255
+	PlayAlertSound 2 300
+	PlayEffect White
+	MinimapIcon 2 White Circle
 
 Show # Runes
 	Class == "Socketable"
-	BaseType == "Desert Rune" "Glacial Rune" "Storm Rune" "Iron Rune" "Body Rune" "Mind Rune" "Rebirth Rune" "Inspiration Rune" "Stone Rune" "Vision Rune"
+	BaseType == "Desert Rune" "Glacial Rune" "Storm Rune" "Body Rune" "Mind Rune" "Rebirth Rune" "Inspiration Rune" "Stone Rune" "Vision Rune"
 	SetFontSize 40
 	SetBorderColor 0 0 0 255
 
