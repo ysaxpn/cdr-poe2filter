@@ -592,7 +592,6 @@ Show # %D1 $type->chancing $tier->hh
 
 # Show # One Artificer's Orb Shard
 # 	Width 1
-# 	Height <= 4
 # 	Sockets > 0
 # 	Rarity Normal Magic
 # 	AreaLevel >= 65
@@ -602,11 +601,22 @@ Show # %D1 $type->chancing $tier->hh
 # 	SetBackgroundColor 130 110 110 255
 
 # Show # Two Armourer's Scraps
-# 	Class == "Body Armours" "Boots" "Gloves" "Helmets" "Shields"
+# 	Class == "Body Armours" "Boots" "Gloves" "Helmets" "Shields" "Foci"
 # 	Quality >= 10
 # 	Rarity Normal Magic
 # 	AreaLevel >= 65
 # 	SetFontSize 40
+# 	SetTextColor 0 0 0 255
+# 	SetBorderColor 200 200 200 255
+# 	SetBackgroundColor 130 110 110 255
+
+# Show # One Armourer's Scrap
+# 	Class == "Boots" "Gloves" "Helmets" "Shields" "Foci"
+# 	Quality >= 1
+# 	Height <= 2
+# 	Rarity Normal Magic
+# 	AreaLevel >= 65
+# 	SetFontSize 35
 # 	SetTextColor 0 0 0 255
 # 	SetBorderColor 200 200 200 255
 # 	SetBackgroundColor 130 110 110 255
