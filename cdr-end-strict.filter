@@ -374,7 +374,7 @@ Show #T1 Jewellery
 Show #T1 Wands
 	Mirrored False
 	Corrupted False
-	ItemLevel >= 81
+	ItemLevel >= 79
 	Rarity Normal
 	BaseType == "Attuned Wand" "Siphoning Wand"
 	SetFontSize 45
